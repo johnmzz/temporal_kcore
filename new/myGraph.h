@@ -13,6 +13,8 @@
 #include <unordered_set>
 #include <algorithm>
 #include <ctime>
+#include <iomanip>
+#include <climits>
 
 #define _LINUX_
 
