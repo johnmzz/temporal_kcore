@@ -9,6 +9,9 @@ using namespace std;
 int main(int argc, char *argv[]) {
 
     if(strcmp(argv[1],"-idx") == 0 || strcmp(argv[1],"-idx-4col") == 0){
+        // g++ -O3 main.cpp Graph.cpp -o run -std=c++11
+        // ./run -idx ../CollegeMsg.txt CollegeMsg_idx idx-log-CollegeMsg.txt
+
         string graph_path(argv[2]);
         string idx_path(argv[3]);
         string log_path(argv[4]);
@@ -24,7 +27,10 @@ int main(int argc, char *argv[]) {
         }
 
         g->index();
-        g->write_idx(idx_path);
+        // g->write_idx(idx_path);
+
+        // g->time_range_kcore(1082040961,1085464618,2);
+        //g->write_idx(idx_path);
         delete g;
     }
 

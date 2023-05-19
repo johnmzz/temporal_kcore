@@ -89,6 +89,7 @@ void Graph::load(const string &path, const int &total_edge_num, bool timestamp_t
 
         if (ts != pre_ts){
             t_new_to_old_.emplace_back(ts);
+            t_old_to_new_.insert(make_pair(ts,t_new_to_old_.size()-1));
             edges_idx_.emplace_back(edges_.size() - 1);
         }
 
@@ -178,7 +179,7 @@ void Graph::index() {
 #endif
 
 
-    core_t_ = new vector<vector<pair<int,int>>>[n_];
+    core_t_ = new vector<vector<pair<int,int>>>[n_];    // [u1: [k1:[pair1, pair2, ...], k2:[pair1, pair2, ...], ...], u2: [], ...]
     t_offset_ = new int[n_];
     if (v_a_ == nullptr) v_a_ = new bool[n_];
     if (v_b_ == nullptr) v_b_ = new bool[n_];
@@ -190,7 +191,7 @@ void Graph::index() {
     for (int u = 0; u < n_; ++u) {
         v_a_[u] = false;
         v_b_[u] = false;
-        core_t_[u].resize(core_[u]+1);
+        core_t_[u].resize(core_[u]+1);      // for each u, set size of core_t_[u] to core(u)+1
     }
     printf("k_max = %d\n",k_max_);
 
@@ -210,6 +211,7 @@ void Graph::index() {
             for (int i = edges_idx_[t_s-1]; i < edges_idx_[t_s]; ++i) {
                 int u = edges_[i].first;
                 int v = edges_[i].second;
+                // cout << "delete edge = <" << u << "," << v << "," << t_s-1 << ">" << endl;
 
                 if (invalid(u,k) || invalid(v,k)) continue;
 
@@ -322,7 +324,7 @@ void Graph::index() {
 #ifdef _LINUX_
     gettimeofday(&t_end, NULL);
     long long t_msec = (t_end.tv_sec - t_start.tv_sec)*1000 + (t_end.tv_usec - t_start.tv_usec)/1000;
-    printf("Running time: %lld s, %lld mins\n", t_msec/1000, t_msec/1000/60);
+    printf("Running time: %lld ms, %lld s, %lld mins\n", t_msec, t_msec/1000, t_msec/1000/60);
     if(log_f_ != nullptr) fprintf(log_f_,"Indexing time: %lld s\n",t_msec/1000);
 
 
@@ -338,6 +340,8 @@ void Graph::index() {
 #endif
     if(log_f_ != nullptr) fprintf(log_f_,"kmax = %d\n",k_max_);
     print_idx_size();
+
+    //print_index();
 }
 
 
@@ -347,7 +351,7 @@ void Graph::core_decomposition() {
     if (core_ == nullptr) core_ = new int[n_];
 
     auto vert = new int[n_];
-    auto bin = new int[max_effective_deg_+1];
+    auto bin = new int[max_effective_deg_+1];  
     memset(bin,0,sizeof(int)*(max_effective_deg_+1));
 
     for (int u = 0; u < n_; ++u) {
@@ -356,6 +360,7 @@ void Graph::core_decomposition() {
         ++bin[d];
     }
 
+    // sort based on degree
     int offset = 0;
     for (int i = 0; i <= max_effective_deg_ ; ++i) {
         int num = bin[i];
@@ -398,6 +403,13 @@ void Graph::core_decomposition() {
         }
 
         if (core_[u] > k_max_) k_max_ = core_[u];
+        // early termination
+        // if (core_[u] > _k) {
+        //     core_[u] = k;
+        //     for each core_[u] remaining in vert:
+        //         core_u[u] = k;
+        //     break;
+        // }
     }
 
     delete[] bin;
@@ -418,8 +430,9 @@ void Graph::init_core_time() {
 
             int u = edges_[i].first;
             int v = edges_[i].second;
+            //cout << "delete edge = <" << u << "," << v << "," << t_e << ">" << endl;
 
-    //        process u
+    //        process u (delete edge)
             if (core[u] <= core[v]){
                 --cd_[u][v];
                 if (cd_[u][v] == 0){
@@ -431,7 +444,7 @@ void Graph::init_core_time() {
                 }
             }
 
-//            process v
+//            process v (delete edge)
             if (core[v] <= core[u]){
                 --cd_[v][u];
                 if (cd_[v][u] == 0){
@@ -455,6 +468,7 @@ void Graph::init_core_time() {
 
             memset(cnt,0,sizeof(int)*(oc+1));
 
+            // LocalCore
             for (int i = 0; i < nbr_[u].size(); ++i) {
                 int v = nbr_[u][i].first;
                 int t = nbr_[u][i].second;
@@ -479,7 +493,7 @@ void Graph::init_core_time() {
                 }
             }
 
-//            update cd_;
+//            update cd_; (redundant?)
             cd_[u].clear();
             for (int i = 0; i < nbr_[u].size(); ++i) {
                 int v = nbr_[u][i].first;
@@ -511,7 +525,7 @@ void Graph::init_core_time() {
             }
 
             for (int k = oc; k > core[u]; --k) {
-                core_t_[u][k].emplace_back(make_pair(0, t_e));
+                core_t_[u][k].emplace_back(make_pair(0, t_e));  // if u popped from q, then its core changed at t_e, therefore put in Index
             }
 
         }
@@ -546,7 +560,6 @@ void Graph::init_ct_cnt(int k) {
             }
         }
     }
-
 }
 
 void Graph::test() {
@@ -1681,4 +1694,504 @@ bool cmp(const pair<int,int> &a, const pair<int,int> &b){
 
 bool cmp_nbr(const pair<int,int> &a, const pair<int,int> &b){
     return a.second < b.second;
+}
+
+void Graph::print_index(int k) {
+    cout << "index = " << endl;
+    for (auto u = 0; u < n_; u++) {
+        cout << "u = " << u << ": [";        
+        for (auto v : core_t_[u][k]) {
+            cout << "(" << v.first << "," << v.second << "),";
+        }
+        cout << "]" << endl;
+    }
+}
+
+void Graph::time_range_kcore(long _ts, long _te, int _k) {
+    cout << "Query: ts = " << _ts << ", te = " << _te << ", k = " << _k << endl;
+
+#ifdef _LINUX_
+    struct timeval t_start,t_end;
+    gettimeofday(&t_start, NULL);
+#else
+    clock_t start = clock();
+#endif
+
+    long ts = t_old_to_new_[_ts];
+    long te = t_old_to_new_[_te];
+    cout << "ts = " << ts << ", te = " << te << endl;
+    truncate(ts,te);
+
+    core_t_ = new vector<vector<pair<int,int>>>[n_];    // [u1: [k1:[pair1, pair2, ...], k2:[pair1, pair2, ...], ...], u2: [], ...]
+    t_offset_ = new int[n_];
+    if (v_a_ == nullptr) v_a_ = new bool[n_];
+    if (v_b_ == nullptr) v_b_ = new bool[n_];
+
+
+    printf("starting core decomposition...\n");
+//    compute core number for all edges
+    core_decomposition_new();
+    // cout << "core = [";
+    // for (int u = 0; u < n_; u++) {
+    //     cout << core_[u] << ",";
+    // }
+    // cout << "]" << endl;
+
+    for (int u = 0; u < n_; ++u) {
+        v_a_[u] = false;
+        v_b_[u] = false;
+        core_t_[u].resize(core_[u]+1);      // for each u, set size of core_t_[u] to core(u)+1
+    }
+    printf("k_max = %d\n",k_max_);
+
+    printf("initialize core time.\n");
+    compute_core_deg_new(ts);
+    init_core_time_new(ts, te, _k);
+
+
+//    init ct_deg_ and ct_cnt
+    queue<int> q;
+    for (int k = _k; k < _k+1; ++k) {
+        for (int i = 0; i < n_; i++) {
+            v_a_[i] = false;
+        }
+        printf("Iteration k = %d.\n",k);
+        init_ct_cnt_new(k);
+        for (int t_s = ts; t_s <= te; ++t_s) {
+            vector<int> cand;
+            for (int i = edges_idx_[t_s-1]; i < edges_idx_[t_s]; ++i) {
+                int u = edges_[i].first;
+                int v = edges_[i].second;
+
+                if (invalid(u,k) || invalid(v,k)) continue;
+
+//                process u
+                if (!v_a_[u]){
+                    del_nbr(u,v);
+                    if (ct_cnt_[u].size()<k){
+                        q.push(u);
+                        v_a_[u] = true;
+                    }
+                }
+
+
+//                process v
+                if (!v_a_[v]) {
+                    del_nbr(v, u);
+                    if (ct_cnt_[v].size() < k) {
+                        q.push(v);
+                        v_a_[v] = true;
+                    }
+                }
+            }
+
+            while (!q.empty()){
+                int u = q.front();
+                q.pop();
+                v_a_[u] = false;
+
+                ct_cnt_[u].clear();
+                vector<int> nbr_t;
+                vector<int> bm_history;
+
+
+                int ct = 0;
+
+//                  compute new core time of u
+                for (int i = t_offset_[u]; i < nbr_trunc_[u].size(); ++i) {
+
+                    int t = nbr_trunc_[u][i].second;
+                    if (nbr_t.size() >= k && t > ct) break;
+                    if (t < t_s){
+                        t_offset_[u] = i+1;
+                        continue;
+                    }
+
+                    int v = nbr_trunc_[u][i].first;
+//                    v is not valid or has already been visited
+                    if (invalid(v,k) || v_b_[v]) continue;
+
+//                    mark v has been visited
+                    v_b_[v] = true;
+                    int v_t = core_t_[v][k].back().second;
+                    nbr_t.emplace_back(max(t,v_t));
+                    bm_history.emplace_back(v);
+
+                    if (nbr_t.size() <= k) ct = max(ct,v_t);
+
+                }
+                for (auto &v:bm_history) v_b_[v] = false;
+
+                int new_t = t_;
+                if (nbr_t.size() >= k){
+                    nth_element(nbr_t.begin(),nbr_t.begin()+k-1,nbr_t.end());
+//                    sort(nbr_t.begin(),nbr_t.end());
+                    new_t = nbr_t[k-1];
+                }
+
+                int old_t = core_t_[u][k].back().second;
+                if (core_t_[u][k].back().first == t_s){
+                    core_t_[u][k].back().second = new_t;
+                }else{
+                    core_t_[u][k].emplace_back(make_pair(t_s,new_t));
+                }
+
+//                compute ct_cnt_[u] and add neighbor to queue if necessary
+                for (int i = t_offset_[u]; i < nbr_trunc_[u].size(); ++i) {
+//                    compute ct_cnt_[u]
+                    int t = nbr_trunc_[u][i].second;
+                    int v = nbr_trunc_[u][i].first;
+                    if (t > new_t) break;
+                    if (invalid(v,k) || core_t_[v][k].back().second > new_t) continue;
+
+                    if (new_t != t_){
+                        if (ct_cnt_[u].find(v)==ct_cnt_[u].end() ){
+                            ct_cnt_[u].insert(make_pair(v,1));
+                        }else{
+                            ++ct_cnt_[u][v];
+                        }
+                    }
+
+//                    add neighbor to queue if necessary
+                    if (v_a_[v]) continue;
+                    if (core_t_[v][k].back().second < old_t || new_t <= core_t_[v][k].back().second) continue;
+//                    del_nbr(v,u);
+                    ct_cnt_[v].erase(u);
+                    if (ct_cnt_[v].size() < k){
+                        q.push(v);
+                        v_a_[v] = true;
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+#ifdef _LINUX_
+    gettimeofday(&t_end, NULL);
+    long long t_msec = (t_end.tv_sec - t_start.tv_sec)*1000 + (t_end.tv_usec - t_start.tv_usec)/1000;
+    printf("Running time: %lld ms, %lld s, %lld mins\n", t_msec, t_msec/1000, t_msec/1000/60);
+    if(log_f_ != nullptr) fprintf(log_f_,"Indexing time: %lld s\n",t_msec/1000);
+
+
+    struct rusage rUsage;
+    getrusage(RUSAGE_SELF, &rUsage);
+    long ms = rUsage.ru_maxrss;
+    printf("Memory usage = %ldKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024);
+    if(log_f_ != nullptr) fprintf(log_f_,"Memory usage = %ldKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024);
+#else
+    clock_t end = clock();
+    printf("Running time: %.2f s, %.2f min\n",(double)(end-start)/ CLOCKS_PER_SEC,(double)(end-start)/CLOCKS_PER_SEC/60);
+
+#endif
+    if(log_f_ != nullptr) fprintf(log_f_,"kmax = %d\n",k_max_);
+    print_idx_size();
+
+    //print_index(_k);
+}
+
+void Graph::truncate(long ts, long te) {
+    nbr_trunc_.resize(n_);
+    for (long t = ts; t <= te; t++) {
+        for (int i = edges_idx_[t]; i < edges_idx_[t+1]; i++) {
+            int u = edges_[i].first;
+            int v = edges_[i].second;
+            
+            nbr_trunc_[u].emplace_back(make_pair(v,t));
+            if(nbr_trunc_[u].size() > max_deg_) max_deg_trunc_ = nbr_trunc_[u].size();
+
+            nbr_trunc_[v].emplace_back(make_pair(u,t));
+            if(nbr_trunc_[v].size() > max_deg_) max_deg_trunc_ = nbr_trunc_[v].size();
+        }
+    }
+
+    // cout << "nbr_trunc_ = " << endl;
+    // for (int i = 0; i < nbr_trunc_.size(); i++) {
+    //     cout << "u = " << i << ": [";
+    //     for (int j = 0; j < nbr_trunc_[i].size(); j++) {
+    //         cout << "(" << nbr_trunc_[i][j].first << "," << nbr_trunc_[i][j].second << "),";
+    //     }
+    //     cout << "]" << endl;
+    // }
+
+    init_nbr_cnt_trunc();
+
+    // cout << "nbr_cnt_trunc_ = " << endl; 
+    // for (int i = 0; i < n_; i++) {
+    //     cout << "u = " << i << ": [";
+    //     for (auto j = nbr_cnt_trunc_[i].begin(); j != nbr_cnt_trunc_[i].end(); j++) {
+    //         cout << "(" << j->first << "," << j->second << "),";
+    //     }
+    //     cout << "]" << endl;
+    // }
+}
+
+void Graph::init_nbr_cnt_trunc() {
+
+    effective_m_ = 0;
+
+    nbr_cnt_trunc_ = new unordered_map<int,int>[n_];
+
+
+    max_effective_deg_ = 0;
+
+    for (int u = 0; u < n_; ++u) {
+
+        for(auto &i : nbr_trunc_[u]){
+            if (nbr_cnt_trunc_[u].find(i.first) != nbr_cnt_trunc_[u].end()){
+                ++nbr_cnt_trunc_[u][i.first];
+            } else{
+                nbr_cnt_trunc_[u].insert(make_pair(i.first,1));
+            }
+        }
+
+        if(nbr_cnt_trunc_[u].size() > max_effective_deg_) max_effective_deg_ = nbr_cnt_trunc_[u].size();
+        effective_m_ += nbr_cnt_trunc_[u].size();
+    }
+
+    effective_m_ /= 2;
+}
+
+//core decomposition for all edges
+void Graph::core_decomposition_new() {
+    if (core_ == nullptr) core_ = new int[n_];
+
+    auto vert = new int[n_];
+    auto bin = new int[max_effective_deg_+1];
+    memset(bin,0,sizeof(int)*(max_effective_deg_+1));
+
+    for (int u = 0; u < n_; ++u) {
+        int d = nbr_cnt_trunc_[u].size();
+        core_[u] = d;
+        ++bin[d];
+    }
+
+    int offset = 0;
+    for (int i = 0; i <= max_effective_deg_ ; ++i) {
+        int num = bin[i];
+        bin[i] = offset;
+        offset += num;
+    }
+
+    for (int u = 0; u < n_; ++u) {
+        t_offset_[u] = bin[core_[u]];
+        vert[t_offset_[u]] = u;
+        bin[core_[u]]++;
+    }
+
+    for (int i = max_effective_deg_; i >= 1; --i) bin[i] = bin[i - 1];
+    bin[0] = 0;
+
+    k_max_ = 0;
+
+    for (int i = 0; i < n_; ++i) {
+        int u = vert[i];
+
+        for (auto& item : nbr_trunc_[u]){
+            if (v_a_[item.first]) continue;
+            v_a_[item.first] = true;
+            if (core_[item.first] > core_[u]){
+                int dv = core_[item.first], pv = t_offset_[item.first];
+                int pw = bin[dv], w = vert[pw];
+                if (item.first != w){
+                    t_offset_[item.first] = pw, vert[pv] = w;
+                    t_offset_[w] = pv, vert[pw] = item.first;
+                }
+                ++bin[dv];
+                --core_[item.first];
+            }
+
+        }
+
+        for (auto& item : nbr_trunc_[u]){
+            v_a_[item.first] = false;
+        }
+
+        if (core_[u] > k_max_) k_max_ = core_[u];
+    }
+
+    delete[] bin;
+    delete[] vert;
+    cout << "Initial decomp complete.." << endl;
+}
+
+void Graph::compute_core_deg_new(const int &t_s) {
+    if (cd_ == nullptr){
+        cd_ = nbr_cnt_trunc_;
+    }
+
+    for (int u = 0; u < n_; ++u) {
+        cd_[u].clear();
+        for (int i = nbr_trunc_[u].size()-1;i>=0;--i){
+            int v = nbr_trunc_[u][i].first;
+            int t = nbr_trunc_[u][i].second;
+            if (t < t_s) break;
+
+            if (core_[v] < core_[u]) continue;
+
+            if (cd_[u].find(v) == cd_[u].end()){
+                cd_[u].insert(make_pair(v,1));
+            }else{
+                ++cd_[u][v];
+            }
+        }
+    }
+
+    // cout << "cd_ = " << endl; 
+    // for (int i = 0; i < n_; i++) {
+    //     cout << "u = " << i << ": [";
+    //     for (auto j = cd_[i].begin(); j != cd_[i].end(); j++) {
+    //         cout << "(" << j->first << "," << j->second << "),";
+    //     }
+    //     cout << "]" << endl;
+    // }
+}
+
+void Graph::init_core_time_new(long _ts, long _te, int _k) {
+//    vector<int> core_history;
+    int* core = new int[n_];
+    for (int u = 0; u < n_; ++u) {
+        core[u] = core_[u];
+    }
+
+    queue<int> q;
+    int* cnt = new int[k_max_+1];
+    for (int t_e = _te; t_e >= _ts; --t_e) {
+        for (int i = edges_idx_[t_e]; i < edges_idx_[t_e+1]; ++i) {
+
+            int u = edges_[i].first;
+            int v = edges_[i].second;
+
+    //        process u (delete edge)
+            if (core[u] <= core[v]){
+                --cd_[u][v];
+                if (cd_[u][v] == 0){
+                    cd_[u].erase(v);
+                    if (cd_[u].size() < _k && !v_a_[u]){
+                        q.push(u);
+                        v_a_[u] = true;
+                    }
+                }
+            }
+
+//            process v (delete edge)
+            if (core[v] <= core[u]){
+                --cd_[v][u];
+                if (cd_[v][u] == 0){
+                    cd_[v].erase(u);
+                    if (cd_[v].size() < _k && !v_a_[v]){
+                        q.push(v);
+                        v_a_[v] = true;
+                    }
+                }
+            }
+        }
+
+
+
+        while (!q.empty()){
+            int u = q.front();
+            q.pop();
+
+            int oc = core[u];
+
+            memset(cnt,0,sizeof(int)*(oc+1));
+
+            // LocalCore
+            for (int i = 0; i < nbr_trunc_[u].size(); ++i) {
+                int v = nbr_trunc_[u][i].first;
+                int t = nbr_trunc_[u][i].second;
+                if (t >= t_e) break;
+                if (v_b_[v]) continue;
+                v_b_[v] = true;
+
+                ++cnt[core[v] < core[u] ? core[v]:core[u]];
+            }
+
+            for (int i = 0; i < nbr_trunc_[u].size(); ++i) {
+                if (nbr_trunc_[u][i].second >= t_e) break;
+                v_b_[nbr_trunc_[u][i].first] = false;
+            }
+
+            int cd = 0;
+            for (int k = oc; k >= 0 ; --k) {
+                cd += cnt[k];
+                if(cd >= k){
+                    core[u] = k;
+                    break;
+                }
+            }
+
+//            update cd_;
+            cd_[u].clear();
+            for (int i = 0; i < nbr_trunc_[u].size(); ++i) {
+                int v = nbr_trunc_[u][i].first;
+                int t = nbr_trunc_[u][i].second;
+                if (t >= t_e) break;
+                if (core[v] < core[u]) continue;
+                if (cd_[u].find(v) == cd_[u].end()) cd_[u].insert(make_pair(v,1));
+                else ++cd_[u][v];
+            }
+
+
+    //        add influenced neighbor to the queue
+            for (int i = 0; i < nbr_trunc_[u].size(); ++i) {
+                if (nbr_trunc_[u][i].second >= t_e) break;
+                int v = nbr_trunc_[u][i].first;
+                if (core[u] < core[v] && core[v] <= oc && !v_b_[v]){
+                    v_b_[v] = true;
+                    cd_[v].erase(u);
+                    if (!v_a_[v] && cd_[v].size() < _k){
+                        q.push(v);
+                        v_a_[v] = true;
+                    }
+                }
+            }
+
+            for (int i = 0; i < nbr_trunc_[u].size(); ++i) {
+                if (nbr_trunc_[u][i].second >= t_e) break;
+                v_b_[nbr_trunc_[u][i].first] = false;
+            }
+
+            core_t_[u][_k].emplace_back(make_pair(0, t_e));  // if u popped from q, then its core changed at t_e, therefore put in Index
+        }
+    }
+    delete[] cnt;
+    delete[] core;
+}
+
+void Graph::init_ct_cnt_new(int k) {
+
+//    reuse nbr_cnt_ and avoid applying space
+    ct_cnt_ = nbr_cnt_trunc_;
+
+    for (int u = 0; u < n_; ++u) {
+        if (invalid(u,k)) continue;
+        t_offset_[u] = 0;
+        ct_cnt_[u].clear();
+
+        int t = core_t_[u][k].front().second;
+        for (auto &i : nbr_trunc_[u]){
+            if (i.second > t) break;
+            int v = i.first;
+            if (core_[v]<k || t < core_t_[v][k].front().second) continue;   // v's CT < u's CT, then v is in k-core earlier than u, thus add
+            if (ct_cnt_[u].find(v) == ct_cnt_[u].end()){
+                ct_cnt_[u].insert(make_pair(v,1));
+            }else{
+                ++ct_cnt_[u][v];
+            }
+        }
+    }
+
+    // cout << "ct_cnt_ = " << endl; 
+    // for (int i = 0; i < n_; i++) {
+    //     cout << "u = " << i << ": [";
+    //     for (auto j = ct_cnt_[i].begin(); j != ct_cnt_[i].end(); j++) {
+    //         cout << "(" << j->first << "," << j->second << "),";
+    //     }
+    //     cout << "]" << endl;
+    // }
 }

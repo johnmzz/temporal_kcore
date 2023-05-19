@@ -36,6 +36,7 @@ class Graph {
     unsigned int n_{};
     unsigned int m_{};
     unsigned int max_deg_{};
+    unsigned int max_deg_trunc_{};
     unsigned int effective_m_{};
     int min_k_;
     long long idx_size_;
@@ -45,12 +46,15 @@ class Graph {
     FILE* log_f_;
 
     vector<long> t_new_to_old_;
+    unordered_map<long,int> t_old_to_new_;
     vector<pair<int,int>> edges_;
     vector<int> edges_idx_;
     vector<vector<pair<int,int>>> nbr_;
+    vector<vector<pair<int,int>>> nbr_trunc_;
 //    vector<vector<int>> reverse_nbr_idx_;
 
     unordered_map<int,int>* nbr_cnt_;
+    unordered_map<int,int>* nbr_cnt_trunc_;
 
     int* core_{};
 
@@ -73,9 +77,13 @@ class Graph {
 
 
     void init_nbr_cnt();
+    void init_nbr_cnt_trunc();
     void core_decomposition();
+    void core_decomposition_new();
     void init_core_time();
+    void init_core_time_new(long ts, long te, int k);
     void init_ct_cnt(int k);
+    void init_ct_cnt_new(int k);
 
     void del_nbr(int u, int v);
     bool invalid(int u, int k);
@@ -84,10 +92,12 @@ class Graph {
     void decremental_core_bl(const int &t_s);
     void compute_core_time_bl(const int &t_s);
     void compute_core_deg(const int &t_s);
+    void compute_core_deg_new(const int &t_s);
 
     void test_core_decomposition(const int &t_s);
     void print_idx_size();
     void print_graph_size();
+    void print_index(int k);
 
 public:
     unsigned int t_{};
@@ -116,6 +126,9 @@ public:
 
     void test();
 
+    // new
+    void time_range_kcore(long ts, long te, int k);
+    void truncate(long ts, long te);
 
 //    void online_span_core(const int &u, const int &t_s, const int &t_e);
     void online_core_decomposition(const int &t_s, const int &t_e);
