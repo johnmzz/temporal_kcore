@@ -1,0 +1,6201 @@
+
+
+==================
+Wed May 10 23:31:29 2023
+
+Graph path: ../CollegeMsg.txt
+
+
+==================
+Wed May 10 23:32:13 2023
+
+Graph path: ../CollegeMsg.txt
+
+
+==================
+Wed May 10 23:34:45 2023
+
+Graph path: ../CollegeMsg.txt
+
+
+==================
+Wed May 10 23:41:46 2023
+
+Graph path: ../CollegeMsg.txt
+
+
+==================
+Wed May 10 23:54:01 2023
+
+Graph path: ../CollegeMsg.txt
+
+
+==================
+Wed May 10 23:59:14 2023
+
+Graph path: ../CollegeMsg.txt
+
+
+==================
+Wed May 10 23:59:26 2023
+
+Graph path: ../graph.txt
+
+
+==================
+Thu May 11 00:00:31 2023
+
+Graph path: ../graph.txt
+
+
+==================
+Thu May 11 00:00:39 2023
+
+Graph path: ../graph.txt
+
+
+==================
+Thu May 11 00:01:30 2023
+
+Graph path: ../graph.txt
+
+
+==================
+Thu May 11 00:06:46 2023
+
+Graph path: ../graph.txt
+
+
+==================
+Thu May 11 00:08:51 2023
+
+Graph path: ../graph.txt
+
+
+==================
+Thu May 11 00:08:56 2023
+
+Graph path: ../graph.txt
+
+
+==================
+Thu May 11 00:11:00 2023
+
+Graph path: ../graph.txt
+
+
+==================
+Thu May 11 00:12:25 2023
+
+Graph path: ../graph.txt
+
+
+==================
+Thu May 11 00:23:27 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 00:27:23 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 00:27:35 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 16:00:55 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 16:43:29 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 16:50:55 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 16:55:06 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 16:56:23 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 16:59:16 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 16:59:55 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 17:00:17 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 17:22:18 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 17:27:42 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 17:34:36 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 17:41:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 17:41:30 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 18:28:39 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+
+
+==================
+Thu May 11 18:28:51 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 18:29:18 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 18:30:28 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 18:30:42 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 18:31:31 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 18:40:27 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 0, max_deg = 10, max_effective_deg = 0.
+span = 8.
+
+
+==================
+Thu May 11 18:50:24 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 6, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 18:53:06 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 6, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 19:26:04 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 6, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 19:50:42 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 6, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 19:50:50 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 19:58:41 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:01:09 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:01:18 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:01:22 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:01:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:02:10 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:02:16 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:26:34 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:27:45 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:29:10 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:35:57 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:36:24 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:38:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:38:34 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:38:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:38:40 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:40:37 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:41:07 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:45:29 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:45:45 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:46:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:46:32 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:46:34 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:46:49 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:46:53 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:48:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:48:40 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:48:43 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:49:27 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:49:46 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:51:05 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:51:55 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:52:49 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:53:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:53:53 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:54:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:54:26 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:54:27 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:54:31 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:54:46 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:55:26 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 20:56:58 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 21:22:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 21:28:46 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 21:29:17 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 21:33:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 21:39:42 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 21:42:11 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:05:59 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:06:09 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:16:31 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:30:51 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:31:43 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:36:43 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:37:20 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:37:51 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:38:16 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:38:41 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:39:06 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:43:47 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:43:59 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 5, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:44:11 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 6, max_deg = 4, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:44:32 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 6, max_deg = 4, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:44:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 6, max_deg = 4, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:45:03 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 6, max_deg = 4, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:45:07 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 5, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:45:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 5, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:45:40 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 5, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:46:06 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 5, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:46:31 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 5, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:46:58 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 5, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:49:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:49:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+
+
+==================
+Thu May 11 22:49:28 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 8, max_effective_deg = 8.
+span = 8.
+
+
+==================
+Thu May 11 22:49:31 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:49:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+
+
+==================
+Thu May 11 22:52:08 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 11 22:52:13 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 22:52:15 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 8, max_effective_deg = 8.
+span = 8.
+
+
+==================
+Thu May 11 22:52:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 6, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 11 22:52:31 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 22:52:35 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 8, max_effective_deg = 8.
+span = 8.
+
+
+==================
+Thu May 11 22:56:32 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 22:56:35 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 8, max_effective_deg = 8.
+span = 8.
+
+
+==================
+Thu May 11 22:56:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 22:57:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 22:57:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 22:58:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:03:41 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 8, max_effective_deg = 8.
+span = 8.
+
+
+==================
+Thu May 11 23:03:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:04:29 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:08:22 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:09:27 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:16:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:20:03 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:21:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:23:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:26:43 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:29:55 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:31:06 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:32:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:34:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:35:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:41:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Thu May 11 23:43:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:01:51 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:04:56 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:05:04 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:11:16 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:11:32 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:15:13 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:21:17 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:23:33 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Fri May 12 00:23:49 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:23:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 10, max_deg = 6, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Fri May 12 00:24:15 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Fri May 12 00:25:18 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Fri May 12 00:34:59 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Fri May 12 01:06:03 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Fri May 12 01:06:47 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Fri May 12 01:11:00 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Fri May 12 01:11:50 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Fri May 12 01:12:32 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 1, max_deg = 1, max_effective_deg = 1.
+span = 58911.
+
+
+==================
+Fri May 12 01:13:37 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 11927552KB, 11648.00MB, 11.38GB
+kmax = 2
+Index size: 0.45 MB
+Average T = 38.91, max T = 552.
+
+
+==================
+Fri May 12 01:15:00 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 0, max_deg = 0, max_effective_deg = 0.
+span = 58911.
+
+
+==================
+Fri May 12 13:08:41 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 0, max_deg = 0, max_effective_deg = 0.
+span = 58911.
+
+
+==================
+Fri May 12 13:09:01 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Fri May 12 13:11:53 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1474560KB, 1440.00MB, 1.41GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Fri May 12 13:13:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:16:22 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:17:13 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:29:42 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:30:03 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1572864KB, 1536.00MB, 1.50GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:35:56 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:35:57 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:36:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:47:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1572864KB, 1536.00MB, 1.50GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:48:03 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:48:29 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Fri May 12 13:49:10 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.00, max T = 3.
+
+
+==================
+Fri May 12 13:49:16 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.00, max T = 3.
+
+
+==================
+Fri May 12 13:49:22 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.00, max T = 3.
+
+
+==================
+Fri May 12 13:56:04 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1605632KB, 1568.00MB, 1.53GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.00, max T = 3.
+
+
+==================
+Fri May 12 13:56:28 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.00, max T = 3.
+
+
+==================
+Fri May 12 13:57:11 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.00, max T = 3.
+
+
+==================
+Fri May 12 13:57:37 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.00, max T = 3.
+
+
+==================
+Fri May 12 13:58:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.00, max T = 3.
+
+
+==================
+Sat May 13 21:30:14 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+
+
+==================
+Sat May 13 21:30:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+
+
+==================
+Sat May 13 21:30:22 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 1, max_deg = 1, max_effective_deg = 1.
+span = 8.
+
+
+==================
+Sat May 13 21:30:33 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 1, max_deg = 1, max_effective_deg = 1.
+span = 8.
+
+
+==================
+Sat May 13 21:31:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 1, max_deg = 1, max_effective_deg = 1.
+span = 8.
+
+
+==================
+Sat May 13 21:32:00 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Sat May 13 21:32:05 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Sat May 13 21:32:13 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Sat May 13 21:32:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Sat May 13 21:32:26 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Sat May 13 21:32:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 6, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Sat May 13 21:32:33 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 11, max_deg = 6, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Sat May 13 21:32:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 9, max_deg = 5, max_effective_deg = 5.
+span = 8.
+
+
+==================
+Sat May 13 21:32:41 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 3, max_deg = 2, max_effective_deg = 2.
+span = 8.
+
+
+==================
+Sat May 13 21:40:03 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 3, max_deg = 2, max_effective_deg = 2.
+span = 8.
+
+
+==================
+Sat May 13 21:40:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Sat May 13 21:41:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Sat May 13 21:41:07 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Sat May 13 21:41:11 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Sat May 13 21:41:15 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Sat May 13 21:41:20 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Sat May 13 21:41:26 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Sat May 13 21:41:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Sat May 13 21:41:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Sat May 13 21:47:28 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Sat May 13 21:48:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Sat May 13 21:54:00 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Sat May 13 21:55:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 6, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Sun May 14 20:35:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 7, max_deg = 6, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Sun May 14 20:35:56 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Mon May 15 23:15:57 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1671168KB, 1632.00MB, 1.59GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Mon May 15 23:16:10 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1605632KB, 1568.00MB, 1.53GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Mon May 15 23:30:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1474560KB, 1440.00MB, 1.41GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Mon May 15 23:30:34 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Mon May 15 23:30:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Mon May 15 23:30:53 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Tue May 16 00:04:39 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 00:05:41 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1556480KB, 1520.00MB, 1.48GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 1.35, max T = 4.
+
+
+==================
+Tue May 16 18:32:53 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1572864KB, 1536.00MB, 1.50GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Tue May 16 21:45:27 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Tue May 16 21:46:26 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 21:46:41 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 21:46:45 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 21:46:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:06:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:06:58 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:07:01 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:07:06 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:07:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:07:15 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:07:18 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:23:59 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:24:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:24:42 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:24:47 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:24:53 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:24:59 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:25:04 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:25:07 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Tue May 16 22:28:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:28:56 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:28:59 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:29:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:29:07 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:29:11 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:31:51 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:31:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:31:56 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:31:58 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:32:01 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:32:03 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:32:09 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:32:13 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Tue May 16 22:33:06 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:33:10 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:33:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:33:17 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:33:24 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:33:26 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:33:31 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:33:42 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Tue May 16 22:33:45 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:35:13 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:35:17 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:35:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:35:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:35:24 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:35:40 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:35:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:35:47 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:35:49 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Tue May 16 22:36:27 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:36:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:36:32 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:36:56 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:36:58 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:37:00 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:37:04 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:37:06 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:37:42 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:37:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:37:46 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:37:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:37:50 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:37:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:37:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:38:46 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:38:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 22:38:50 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:38:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 8.
+
+
+==================
+Tue May 16 22:38:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 8.
+
+
+==================
+Tue May 16 22:38:58 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:39:00 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Tue May 16 22:39:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Tue May 16 23:27:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Tue May 16 23:28:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 15:01:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 15:03:16 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 18:42:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 18:42:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 18:45:59 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 18:49:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 18:50:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 19:17:17 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 19:19:53 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 19:21:23 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 22:05:17 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 23:10:13 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Wed May 17 23:51:07 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 00:38:58 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 00:39:05 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 8, max_deg = 5, max_effective_deg = 4.
+span = 8.
+
+
+==================
+Thu May 18 00:41:24 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 5, max_deg = 2, max_effective_deg = 2.
+span = 8.
+
+
+==================
+Thu May 18 00:42:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 18 00:44:45 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 00:44:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 18 00:45:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 18 00:46:35 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 18 00:47:00 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 18 01:14:35 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 18 01:14:41 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 01:15:34 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 01:23:15 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 01:23:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 01:25:10 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 01:25:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 01:26:14 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 01:31:42 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 01:33:08 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 01:33:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 01:36:01 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 6 s
+Memory usage = 481296384KB, 470016.00MB, 459.00GB
+kmax = 0
+
+
+==================
+Thu May 18 01:37:34 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13074432KB, 12768.00MB, 12.47GB
+kmax = 2
+Index size: 0.29 MB
+Average T = 34.05, max T = 469.
+
+
+==================
+Thu May 18 01:37:53 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13910016KB, 13584.00MB, 13.27GB
+kmax = 2
+Index size: 0.29 MB
+Average T = 34.05, max T = 469.
+
+
+==================
+Thu May 18 01:38:50 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13172736KB, 12864.00MB, 12.56GB
+kmax = 2
+Index size: 0.29 MB
+Average T = 34.05, max T = 469.
+
+
+==================
+Thu May 18 01:39:12 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 6 s
+Memory usage = 481280000KB, 470000.00MB, 458.98GB
+kmax = 0
+
+
+==================
+Thu May 18 01:41:48 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 480165888KB, 468912.00MB, 457.92GB
+kmax = 0
+
+
+==================
+Thu May 18 01:42:55 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12304384KB, 12016.00MB, 11.73GB
+kmax = 2
+Index size: 0.29 MB
+Average T = 34.05, max T = 469.
+
+
+==================
+Thu May 18 01:44:03 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 11075584KB, 10816.00MB, 10.56GB
+kmax = 0
+
+
+==================
+Thu May 18 01:44:18 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13778944KB, 13456.00MB, 13.14GB
+kmax = 0
+
+
+==================
+Thu May 18 01:44:34 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 478461952KB, 467248.00MB, 456.30GB
+kmax = 0
+
+
+==================
+Thu May 18 01:51:34 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12255232KB, 11968.00MB, 11.69GB
+kmax = 0
+
+
+==================
+Thu May 18 01:57:16 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 14991360KB, 14640.00MB, 14.30GB
+kmax = 0
+
+
+==================
+Thu May 18 01:57:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1474560KB, 1440.00MB, 1.41GB
+kmax = 0
+
+
+==================
+Thu May 18 02:29:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1474560KB, 1440.00MB, 1.41GB
+kmax = 3
+
+
+==================
+Thu May 18 02:30:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 02:32:14 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1523712KB, 1488.00MB, 1.45GB
+kmax = 3
+
+
+==================
+Thu May 18 02:33:17 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 02:33:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1556480KB, 1520.00MB, 1.48GB
+kmax = 3
+
+
+==================
+Thu May 18 02:39:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 02:42:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 02:42:41 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 02:49:36 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+
+
+==================
+Thu May 18 02:51:20 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 02:52:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+
+
+==================
+Thu May 18 02:52:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 02:55:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 02:56:10 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+
+
+==================
+Thu May 18 02:59:16 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 03:00:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1556480KB, 1520.00MB, 1.48GB
+kmax = 3
+
+
+==================
+Thu May 18 03:01:14 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+
+
+==================
+Thu May 18 03:01:29 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+
+
+==================
+Thu May 18 03:02:27 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 03:03:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1572864KB, 1536.00MB, 1.50GB
+kmax = 3
+
+
+==================
+Thu May 18 03:05:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+
+
+==================
+Thu May 18 03:07:26 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 03:07:41 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 03:08:57 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 03:10:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 2
+Index size: 0.00 MB
+Average T = 2.90, max T = 5.
+
+
+==================
+Thu May 18 03:13:13 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1556480KB, 1520.00MB, 1.48GB
+kmax = 2
+
+
+==================
+Thu May 18 03:13:57 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 2
+
+
+==================
+Thu May 18 03:14:55 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 19, max_deg = 9, max_effective_deg = 8.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 2
+
+
+==================
+Thu May 18 03:14:58 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 03:15:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 03:16:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 03:17:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 03:17:40 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 14303232KB, 13968.00MB, 13.64GB
+kmax = 2
+
+
+==================
+Thu May 18 03:21:46 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 03:22:16 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12238848KB, 11952.00MB, 11.67GB
+kmax = 2
+
+
+==================
+Thu May 18 03:22:55 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13877248KB, 13552.00MB, 13.23GB
+kmax = 2
+
+
+==================
+Thu May 18 03:24:15 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12288000KB, 12000.00MB, 11.72GB
+kmax = 2
+
+
+==================
+Thu May 18 03:25:12 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13369344KB, 13056.00MB, 12.75GB
+kmax = 2
+
+
+==================
+Thu May 18 03:26:01 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 14172160KB, 13840.00MB, 13.52GB
+kmax = 2
+
+
+==================
+Thu May 18 03:26:05 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12713984KB, 12416.00MB, 12.12GB
+kmax = 2
+
+
+==================
+Thu May 18 03:26:17 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13352960KB, 13040.00MB, 12.73GB
+kmax = 2
+
+
+==================
+Thu May 18 03:26:30 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13385728KB, 13072.00MB, 12.77GB
+kmax = 2
+
+
+==================
+Thu May 18 04:47:06 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1572864KB, 1536.00MB, 1.50GB
+kmax = 3
+
+
+==================
+Thu May 18 04:47:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+
+
+==================
+Thu May 18 04:54:53 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+
+
+==================
+Thu May 18 04:57:23 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 05:15:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1605632KB, 1568.00MB, 1.53GB
+kmax = 3
+
+
+==================
+Thu May 18 05:18:26 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1572864KB, 1536.00MB, 1.50GB
+kmax = 3
+
+
+==================
+Thu May 18 05:21:40 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+
+
+==================
+Thu May 18 05:22:23 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 232308736KB, 226864.00MB, 221.55GB
+kmax = 2
+
+
+==================
+Thu May 18 05:33:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1572864KB, 1536.00MB, 1.50GB
+kmax = 0
+
+
+==================
+Thu May 18 05:34:06 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:34:36 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1523712KB, 1488.00MB, 1.45GB
+kmax = 0
+
+
+==================
+Thu May 18 05:38:36 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 478609408KB, 467392.00MB, 456.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:42:27 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 05:42:39 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 4, max_deg = 3, max_effective_deg = 3.
+span = 8.
+
+
+==================
+Thu May 18 05:42:47 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 05:42:49 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 05:44:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 7.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:45:37 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 7.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:45:44 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:45:49 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 7.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:46:47 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 05:47:04 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 05:47:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1474560KB, 1440.00MB, 1.41GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 05:47:16 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 05:48:21 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 05:48:28 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 7.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:48:46 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 5.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:49:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 5.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:49:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 5.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:49:31 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 5.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:51:52 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 5.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:51:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 4.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:52:40 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 5.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:54:34 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 5.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 05:56:01 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 4.
+
+
+==================
+Thu May 18 05:56:40 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 18, max_deg = 8, max_effective_deg = 7.
+span = 5.
+Indexing time: 0 s
+Memory usage = 1572864KB, 1536.00MB, 1.50GB
+kmax = 0
+
+
+==================
+Thu May 18 05:58:01 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19234816KB, 18784.00MB, 18.34GB
+kmax = 0
+
+
+==================
+Thu May 18 05:58:16 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19038208KB, 18592.00MB, 18.16GB
+kmax = 0
+
+
+==================
+Thu May 18 05:58:26 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 17907712KB, 17488.00MB, 17.08GB
+kmax = 0
+
+
+==================
+Thu May 18 05:59:01 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12566528KB, 12272.00MB, 11.98GB
+kmax = 2
+Index size: 0.02 MB
+Average T = 7.19, max T = 40.
+
+
+==================
+Thu May 18 05:59:18 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 11796480KB, 11520.00MB, 11.25GB
+kmax = 2
+Index size: 0.02 MB
+Average T = 7.19, max T = 40.
+
+
+==================
+Thu May 18 05:59:32 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19546112KB, 19088.00MB, 18.64GB
+kmax = 0
+
+
+==================
+Thu May 18 05:59:34 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19087360KB, 18640.00MB, 18.20GB
+kmax = 0
+
+
+==================
+Thu May 18 05:59:36 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 18825216KB, 18384.00MB, 17.95GB
+kmax = 0
+
+
+==================
+Thu May 18 06:06:18 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 0
+
+
+==================
+Thu May 18 06:18:18 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 4.
+Indexing time: 0 s
+Memory usage = 1540096KB, 1504.00MB, 1.47GB
+kmax = 0
+
+
+==================
+Thu May 18 06:19:38 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 4.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 06:20:00 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 4.
+Indexing time: 0 s
+Memory usage = 1523712KB, 1488.00MB, 1.45GB
+kmax = 0
+
+
+==================
+Thu May 18 06:20:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 4.
+Indexing time: 0 s
+Memory usage = 1474560KB, 1440.00MB, 1.41GB
+kmax = 0
+
+
+==================
+Thu May 18 06:27:57 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 13, max_deg = 5, max_effective_deg = 4.
+span = 3.
+Indexing time: 0 s
+Memory usage = 1507328KB, 1472.00MB, 1.44GB
+kmax = 0
+
+
+==================
+Thu May 18 20:35:58 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1671168KB, 1632.00MB, 1.59GB
+kmax = 0
+
+
+==================
+Thu May 18 20:37:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2572288KB, 2512.00MB, 2.45GB
+kmax = 0
+
+
+==================
+Thu May 18 20:57:11 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2097152KB, 2048.00MB, 2.00GB
+kmax = 0
+
+
+==================
+Thu May 18 21:19:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2080768KB, 2032.00MB, 1.98GB
+kmax = 0
+
+
+==================
+Thu May 18 21:31:30 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2015232KB, 1968.00MB, 1.92GB
+kmax = 0
+
+
+==================
+Thu May 18 21:49:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 16, max_deg = 7, max_effective_deg = 6.
+span = 4.
+Indexing time: 0 s
+Memory usage = 1982464KB, 1936.00MB, 1.89GB
+kmax = 0
+
+
+==================
+Thu May 18 21:52:15 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2031616KB, 1984.00MB, 1.94GB
+kmax = 0
+
+
+==================
+Thu May 18 21:52:38 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20267008KB, 19792.00MB, 19.33GB
+kmax = 0
+
+
+==================
+Thu May 18 21:52:55 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 18972672KB, 18528.00MB, 18.09GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:14 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19234816KB, 18784.00MB, 18.34GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:15 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19054592KB, 18608.00MB, 18.17GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:16 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19922944KB, 19456.00MB, 19.00GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:17 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19709952KB, 19248.00MB, 18.80GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:18 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20643840KB, 20160.00MB, 19.69GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:19 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 18677760KB, 18240.00MB, 17.81GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:20 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 18710528KB, 18272.00MB, 17.84GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:21 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 18382848KB, 17952.00MB, 17.53GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:52 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20463616KB, 19984.00MB, 19.52GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:54 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20480000KB, 20000.00MB, 19.53GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:54 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20283392KB, 19808.00MB, 19.34GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:55 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 18792448KB, 18352.00MB, 17.92GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:56 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19709952KB, 19248.00MB, 18.80GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:57 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19890176KB, 19424.00MB, 18.97GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:58 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20660224KB, 20176.00MB, 19.70GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:58 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19070976KB, 18624.00MB, 18.19GB
+kmax = 0
+
+
+==================
+Thu May 18 21:53:59 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20611072KB, 20128.00MB, 19.66GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:00 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19431424KB, 18976.00MB, 18.53GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:01 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20332544KB, 19856.00MB, 19.39GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:02 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20135936KB, 19664.00MB, 19.20GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:03 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20627456KB, 20144.00MB, 19.67GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:04 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19070976KB, 18624.00MB, 18.19GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:04 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19234816KB, 18784.00MB, 18.34GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:05 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 20627456KB, 20144.00MB, 19.67GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:06 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19333120KB, 18880.00MB, 18.44GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:07 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19415040KB, 18960.00MB, 18.52GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:08 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19398656KB, 18944.00MB, 18.50GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:09 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 18694144KB, 18256.00MB, 17.83GB
+kmax = 0
+
+
+==================
+Thu May 18 21:54:09 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 19136512KB, 18688.00MB, 18.25GB
+kmax = 0
+
+
+==================
+Thu May 18 22:06:34 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1982464KB, 1936.00MB, 1.89GB
+kmax = 0
+
+
+==================
+Thu May 18 22:37:23 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2080768KB, 2032.00MB, 1.98GB
+kmax = 0
+
+
+==================
+Thu May 18 22:39:05 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2064384KB, 2016.00MB, 1.97GB
+kmax = 0
+
+
+==================
+Thu May 18 22:43:43 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2555904KB, 2496.00MB, 2.44GB
+kmax = 0
+
+
+==================
+Thu May 18 22:46:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 22:46:34 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2260992KB, 2208.00MB, 2.16GB
+kmax = 0
+
+
+==================
+Thu May 18 22:46:45 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2080768KB, 2032.00MB, 1.98GB
+kmax = 0
+
+
+==================
+Thu May 18 22:47:31 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1982464KB, 1936.00MB, 1.89GB
+kmax = 0
+
+
+==================
+Thu May 18 22:47:39 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2146304KB, 2096.00MB, 2.05GB
+kmax = 0
+
+
+==================
+Thu May 18 22:47:53 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2539520KB, 2480.00MB, 2.42GB
+kmax = 0
+
+
+==================
+Thu May 18 22:48:04 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+
+
+==================
+Thu May 18 22:51:13 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2408448KB, 2352.00MB, 2.30GB
+kmax = 0
+
+
+==================
+Thu May 18 22:51:25 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2031616KB, 1984.00MB, 1.94GB
+kmax = 0
+
+
+==================
+Thu May 18 22:51:39 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1998848KB, 1952.00MB, 1.91GB
+kmax = 0
+
+
+==================
+Thu May 18 22:51:48 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2375680KB, 2320.00MB, 2.27GB
+kmax = 0
+
+
+==================
+Thu May 18 22:53:10 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2080768KB, 2032.00MB, 1.98GB
+kmax = 0
+
+
+==================
+Thu May 18 22:53:23 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2441216KB, 2384.00MB, 2.33GB
+kmax = 0
+
+
+==================
+Thu May 18 22:59:40 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2506752KB, 2448.00MB, 2.39GB
+kmax = 0
+
+
+==================
+Thu May 18 23:06:05 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2473984KB, 2416.00MB, 2.36GB
+kmax = 0
+
+
+==================
+Thu May 18 23:07:36 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2277376KB, 2224.00MB, 2.17GB
+kmax = 0
+
+
+==================
+Thu May 18 23:07:59 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2375680KB, 2320.00MB, 2.27GB
+kmax = 0
+
+
+==================
+Thu May 18 23:08:09 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2293760KB, 2240.00MB, 2.19GB
+kmax = 0
+
+
+==================
+Thu May 18 23:10:19 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2326528KB, 2272.00MB, 2.22GB
+kmax = 0
+
+
+==================
+Thu May 18 23:10:56 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2441216KB, 2384.00MB, 2.33GB
+kmax = 0
+
+
+==================
+Thu May 18 23:11:10 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 28819456KB, 28144.00MB, 27.48GB
+kmax = 0
+
+
+==================
+Thu May 18 23:11:18 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 27607040KB, 26960.00MB, 26.33GB
+kmax = 0
+
+
+==================
+Thu May 18 23:11:37 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 26722304KB, 26096.00MB, 25.48GB
+kmax = 0
+
+
+==================
+Thu May 18 23:12:00 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 28426240KB, 27760.00MB, 27.11GB
+kmax = 0
+
+
+==================
+Thu May 18 23:12:16 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 26378240KB, 25760.00MB, 25.16GB
+kmax = 0
+
+
+==================
+Thu May 18 23:12:24 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 28655616KB, 27984.00MB, 27.33GB
+kmax = 0
+
+
+==================
+Thu May 18 23:12:34 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 26476544KB, 25856.00MB, 25.25GB
+kmax = 0
+
+
+==================
+Thu May 18 23:12:45 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 34015.
+Indexing time: 10 s
+Memory usage = 574160896KB, 560704.00MB, 547.56GB
+kmax = 0
+
+
+==================
+Thu May 18 23:13:10 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 34015.
+Indexing time: 10 s
+Memory usage = 575291392KB, 561808.00MB, 548.64GB
+kmax = 0
+
+
+==================
+Thu May 18 23:14:07 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 34015.
+Indexing time: 10 s
+Memory usage = 573751296KB, 560304.00MB, 547.17GB
+kmax = 0
+
+
+==================
+Thu May 18 23:14:45 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 34015.
+Indexing time: 10 s
+Memory usage = 575094784KB, 561616.00MB, 548.45GB
+kmax = 0
+
+
+==================
+Thu May 18 23:15:05 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 34015.
+Indexing time: 10 s
+Memory usage = 574586880KB, 561120.00MB, 547.97GB
+kmax = 0
+
+
+==================
+Thu May 18 23:16:41 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 27197440KB, 26560.00MB, 25.94GB
+kmax = 0
+
+
+==================
+Thu May 18 23:17:00 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13189120KB, 12880.00MB, 12.58GB
+kmax = 2
+Index size: 0.29 MB
+Average T = 34.05, max T = 469.
+
+
+==================
+Thu May 18 23:17:07 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12877824KB, 12576.00MB, 12.28GB
+kmax = 2
+Index size: 0.29 MB
+Average T = 34.05, max T = 469.
+
+
+==================
+Thu May 18 23:17:29 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12107776KB, 11824.00MB, 11.55GB
+kmax = 2
+Index size: 0.29 MB
+Average T = 34.05, max T = 469.
+
+
+==================
+Thu May 18 23:17:34 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 13828096KB, 13504.00MB, 13.19GB
+kmax = 2
+Index size: 0.29 MB
+Average T = 34.05, max T = 469.
+
+
+==================
+Thu May 18 23:17:56 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12828672KB, 12528.00MB, 12.23GB
+kmax = 2
+Index size: 0.29 MB
+Average T = 34.05, max T = 469.
+
+
+==================
+Thu May 18 23:18:03 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 11501568KB, 11232.00MB, 10.97GB
+kmax = 2
+Index size: 0.02 MB
+Average T = 7.19, max T = 40.
+
+
+==================
+Thu May 18 23:18:15 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 58911.
+Indexing time: 0 s
+Memory usage = 12124160KB, 11840.00MB, 11.56GB
+kmax = 2
+Index size: 0.02 MB
+Average T = 7.19, max T = 40.
+
+
+==================
+Thu May 18 23:21:02 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 1687552KB, 1648.00MB, 1.61GB
+kmax = 3
+Index size: 0.00 MB
+Average T = 3.40, max T = 5.
+
+
+==================
+Thu May 18 23:21:22 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2457600KB, 2400.00MB, 2.34GB
+kmax = 0
+
+
+==================
+Thu May 18 23:24:22 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2392064KB, 2336.00MB, 2.28GB
+kmax = 0
+
+
+==================
+Thu May 18 23:24:29 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2375680KB, 2320.00MB, 2.27GB
+kmax = 0
+
+
+==================
+Thu May 18 23:24:43 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 1 s
+Memory usage = 2441216KB, 2384.00MB, 2.33GB
+kmax = 0
+
+
+==================
+Thu May 18 23:25:16 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2342912KB, 2288.00MB, 2.23GB
+kmax = 0
+
+
+==================
+Thu May 18 23:25:23 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 28770304KB, 28096.00MB, 27.44GB
+kmax = 0
+
+
+==================
+Thu May 18 23:25:47 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 27607040KB, 26960.00MB, 26.33GB
+kmax = 0
+
+
+==================
+Thu May 18 23:25:57 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 8539, max_deg = 1376, max_effective_deg = 218.
+span = 34015.
+Indexing time: 10 s
+Memory usage = 574373888KB, 560912.00MB, 547.77GB
+kmax = 0
+
+
+==================
+Thu May 18 23:28:12 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2097152KB, 2048.00MB, 2.00GB
+kmax = 0
+
+
+==================
+Thu May 18 23:28:26 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2064384KB, 2016.00MB, 1.97GB
+kmax = 0
+
+
+==================
+Thu May 18 23:28:39 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2228224KB, 2176.00MB, 2.12GB
+kmax = 0
+
+
+==================
+Thu May 18 23:28:54 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2359296KB, 2304.00MB, 2.25GB
+kmax = 0
+
+
+==================
+Thu May 18 23:29:40 2023
+
+Graph path: ../graph.txt
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+n = 11, m = 29, effective_m = 22, max_deg = 10, max_effective_deg = 9.
+span = 8.
+Indexing time: 0 s
+Memory usage = 2408448KB, 2352.00MB, 2.30GB
+kmax = 0
+
+
+==================
+Thu May 18 23:30:01 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 28311552KB, 27648.00MB, 27.00GB
+kmax = 0
+
+
+==================
+Thu May 18 23:30:07 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 27377664KB, 26736.00MB, 26.11GB
+kmax = 0
+
+
+==================
+Thu May 18 23:30:12 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 27115520KB, 26480.00MB, 25.86GB
+kmax = 0
+
+
+==================
+Thu May 18 23:30:20 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 28966912KB, 28288.00MB, 27.62GB
+kmax = 0
+
+
+==================
+Thu May 18 23:31:05 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 28442624KB, 27776.00MB, 27.12GB
+kmax = 0
+
+
+==================
+Thu May 18 23:31:09 2023
+
+Graph path: ../CollegeMsg.txt
+n = 1900, m = 59835, effective_m = 13838, max_deg = 1546, max_effective_deg = 255.
+span = 58911.
+n = 1900, m = 59835, effective_m = 497, max_deg = 136, max_effective_deg = 44.
+span = 997.
+Indexing time: 0 s
+Memory usage = 27066368KB, 26432.00MB, 25.81GB
+kmax = 0
