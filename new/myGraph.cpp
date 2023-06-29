@@ -13,6 +13,9 @@ Graph::Graph() {
     core_ = nullptr;
     cd_ = nullptr;
     ct_cnt_ = nullptr;
+    ctn_ = nullptr;
+    ct_ = nullptr;
+    // messages_ = nullptr;
 }
 
 Graph::~Graph() {
@@ -21,8 +24,10 @@ Graph::~Graph() {
     delete[] v_a_;
     delete[] v_b_;
     delete[] core_t_;
-    delete[] t_offset_;
     delete[] core_;
+    delete[] ctn_;
+    delete[] ct_;
+    // delete[] messages_;
     //delete[] cd_;   // same address as nbr_cnt_
     //delete[] ct_cnt_;  // same address as nbr_cnt_
 }
@@ -79,29 +84,45 @@ void Graph::print_graph_size() {
     printf("Graph size: %.2f MB.\n",(float)edges_.size()*3*sizeof(int)/1024/1024);
 }
 
-void Graph::print_ct() {
-    cout << "core_t_ = " << endl;
+void Graph::print_ct(vector<pair<int,int>>* core_t) {
+    cout << "core_t = " << endl;
     for (int u = 0; u < n_; u++) {
         cout << "u = " << u << ": [";
-        for (int k = 0; k < core_t_[u].size(); k++) {
-            cout << "k = " << k << ": [";
-            for (auto v : core_t_[u][k]) {
-                cout << "<" << v.first << "," << v.second << ">,";
-            }
-            cout << "],";
+        for (auto v : core_t[u]) {
+            cout << "<" << v.first << "," << v.second << ">,";
         }
-        cout << endl;
+        cout << "]," << endl;
     }
 }
 
 void Graph::print_local_ct() {
     cout << "ct_ = [" << endl;
     for (int i = 0; i < n_; i++) {
-        cout << std::setw(2) << i << ": [";
-        for (int j = 0; j < t_; j++) {
-            cout << std::setw(2) << ct_[i][j] << ",";
+        cout << std::setw(2) << i << ": [";        
+        if (!ct_[i].empty()) {
+            for (auto v : ct_[i]) {
+                cout << std::setw(2) << "<" << v.first << "," << v.second << ">,";
+            }
+            // for (int j = 0; j < t_; j++) {
+            //     cout << std::setw(2) << ct_[i][j] << ",";
+            // }
         }
         cout << "]\n";
+    }
+}
+
+void Graph::print_ctn(vector<unordered_map<int,int>>& ct_cnt) {
+    cout << "ct_cnt = " << endl;
+    for (int u = 1; u < n_; u++) {
+        cout << std::setw(2) << "u = " << u << ": [";
+        if (ct_cnt[u].empty()) {
+            cout << "]\n";
+            continue;
+        }
+        for (auto it = ct_cnt[u].begin(); it != ct_cnt[u].end(); it++) {
+            cout << "<" << it->first << "," << it->second << ">,";
+        }
+        cout << "\n";
     }
 }
 
@@ -112,6 +133,17 @@ void Graph::print_queue(std::queue<int> q) {
     q.pop();
   }
   std::cout << std::endl;
+}
+
+void Graph::print_message() {
+    cout << "messages = \n";
+    for (int i = 0; i < threads_; i++) {
+        cout << "thread id = " << i << ": [";
+        for (auto v : messages_[i]) {
+            cout << "<" << v.first << "," << v.second << ">,";
+        }
+        cout << endl;
+    }
 }
 
 void Graph::print_idx_size() {
@@ -139,6 +171,20 @@ void Graph::print_idx_size() {
 
     if(log_f_ != nullptr) fprintf(log_f_,"Index size: %.2f MB\n",(float)idx_size_/1024/1024);
     if(log_f_ != nullptr) fprintf(log_f_,"Average T = %.2f, max T = %d.\n",average_t/average_t_d,max_t);
+}
+
+void Graph::write_index(vector<pair<int,int>>* core_t) {
+    ofstream fout("1.txt");
+
+    for (int u = 0; u < n_; u++) {
+        fout << "u = " << u << ": [";
+        for (auto v : core_t[u]) {
+            fout << "<" << v.first << "," << v.second << ">,";
+        }
+        fout << "]" << endl;
+    }
+
+    fout.close();
 }
 
 void Graph::init_nbr_cnt() {
@@ -189,7 +235,7 @@ void Graph::load(const string &path) {
     ifstream ifs(path);
     if (!ifs.is_open()) {
         cerr << "open file failed!" << endl;
-        exit(-1);
+        exit(1);
     }
 
     n_ = 0;
@@ -251,7 +297,7 @@ void Graph::load(const string &path) {
 
     init_nbr_cnt();
 
-    init_nbr_time();
+    // init_nbr_time();
 
     printf("n = %d, m = %d, effective_m = %d, max_deg = %d, max_effective_deg = %d.\n",n_,m_,effective_m_,max_deg_,max_effective_deg_);
     printf("span = %d, t_min = %ld\n",t_, t_min_);
@@ -329,6 +375,8 @@ void Graph::truncate_t(int ts, int te) {
 void Graph::core_decomposition(int _k) {
     if (core_ == nullptr) core_ = new int[n_];
 
+    t_offset_ = new int[n_];
+
     auto vert = new int[n_];
     auto bin = new int[max_effective_deg_+1];
     memset(bin,0,sizeof(int)*(max_effective_deg_+1));
@@ -389,6 +437,7 @@ void Graph::core_decomposition(int _k) {
     }
     delete[] bin;
     delete[] vert;
+    delete[] t_offset_;
     cout << "Initial decomp complete.." << endl;
 }
 
@@ -581,6 +630,7 @@ void Graph::time_range_kcore(long _ts, long _te, int _k) {
 
     queue<int> q;
     for (int k = _k; k < _k+1; ++k) {
+        cout << "k = " << k << endl;
         for (int i = 0; i < n_; i++) {
             v_a_[i] = false;
         }
@@ -635,7 +685,7 @@ void Graph::time_range_kcore(long _ts, long _te, int _k) {
 
                     int v = nbr_[u][i].first;
                     if (invalid(v,k) || v_b_[v]) continue;
-                    v_b_[v] = true;
+                    v_b_[v] = true; 
                     int v_t = core_t_[v][k].back().second;
                     nbr_t.emplace_back(max(t,v_t));
                     bm_history.emplace_back(v);
@@ -684,6 +734,8 @@ void Graph::time_range_kcore(long _ts, long _te, int _k) {
                 }
             }
         }
+        cout << "@@@@" << endl;
+        exit(0);
     }
 #ifdef _LINUX_
     gettimeofday(&t_end, NULL);
@@ -704,8 +756,6 @@ void Graph::time_range_kcore(long _ts, long _te, int _k) {
 #endif
     if(log_f_ != nullptr) fprintf(log_f_,"kmax = %d\n",k_max_);
     print_idx_size();
-
-    //print_ct();
 }
 
 
@@ -723,147 +773,721 @@ void Graph::time_range_kcore(long _ts, long _te, int _k) {
 
 
 
-void Graph::local_ct(int u, int t_s, int t_e, int k) {
-    vector<int> nbr_t;
+
+// void Graph::init_ct(int ts, int te, int k) {
+//     cout << "compute all CT for ts = " << ts << ", te = " << te << ", k = " << k << endl;
+//     ct_ = new vector<pair<int,int>>[n_];
+
+//     for (int u = 1; u < n_; ++u) {
+//         if (core_[u] < k) continue;
+//         ct_[u] = vector<pair<int,int>>();
+
+//         vector<int> bm_history;
+//         int offset = 0;
+
+//         for (int t_s = 0; t_s <= te - ts; ++t_s) {
+//             int cnt = 0;
+//             for (int i = offset; i < nbr_[u].size(); ++i) {
+//                 int t = nbr_[u][i].second;
+//                 if (t < t_s) {
+//                     offset = i+1;
+//                     continue;
+//                 }
+
+//                 int v = nbr_[u][i].first;
+//                 if (v_a_[v]) continue;
+
+//                 v_a_[v] = true;
+//                 bm_history.emplace_back(v);
+
+//                 ++cnt;
+//                 if (cnt == k) {
+//                     if (ct_[u].empty() || ct_[u].back().second != t) {
+//                         ct_[u].emplace_back(make_pair(t_s, t));
+//                     }
+//                     break;
+//                 }
+//             }
+//             for (auto &v : bm_history) v_a_[v] = false;
+//             bm_history.clear();
+
+//             if (cnt < k) {
+//                 ct_[u].emplace_back(make_pair(t_s, t_));
+//                 break;
+//             }
+//         }
+//     }
+//     cout << "CT initialized." << endl;
+// }
+
+// int Graph::get_ct(int u, int ts) {
+//     for (int i = ct_[u].size()-1; i >= 0; --i) {
+//         int t = ct_[u][i].first;
+//         if (t <= ts)
+//             return ct_[u][i].second;
+//     }
+//     return -1; // never happen
+// }
+
+// void Graph::insert_ct(int u, int ts, int ct) {
+//     if (u == 4 && ts == 2) {
+//         print_local_ct();
+//     }
+//     auto itr = lower_bound(ct_[u].begin(), ct_[u].end(), make_pair(ts,0));
+//     if (itr == ct_[u].end()) return;
+
+//     int idx = itr - ct_[u].begin();
+//     if (u == 4 && ts == 2) {
+//         cout << "idx = " << idx << endl;
+//     }
+//     if (ct_[u][idx].first == ts) {
+//         ct_[u][idx].second = ct;
+//     } else {
+//         if (ct_[u][idx-1].second < ct) {
+//             ct_[u].insert(itr, make_pair(ts, ct));
+//         }
+//     }
+//     if (u == 4 && ts == 2) {
+//         print_local_ct();
+//     }
+//     while (idx+1 < ct_[u].size() && ct_[u][idx+1].second <= ct) {
+//         if (u == 4 && ts == 2) {
+//             cout << "ct_[4][" << idx+1 << "].second = " << ct_[u][idx+1].second;
+//             cout << " which is <= " << ct << ", therefore erase." << endl;
+//         }
+//         ct_[u].erase(itr+1);
+//         if (u == 4 && ts == 2) {
+//             print_local_ct();
+//         }
+//         cout << "erased." << endl;
+//     }
+// }
+
+// void Graph::init_ctn(int t_s, int t_e, int k) {
+//     cout << "Initialize ctn for all u, for all ts...\n";
+//     ctn_ = new vector<unordered_set<int>>[n_];
+
+//     for (int u = 0; u < n_; ++u) {
+//         if (core_[u] < k) continue;
+//         ctn_[u] = vector<unordered_set<int>>(t_);
+//         int offset = 0;
+
+//         //cout << "start for u = " << u << endl;
+//         for (int ts = t_s; ts <= t_e; ++ts) {
+//             if (get_ct(u,ts) == t_) continue;
+//             ctn_[u][ts] = unordered_set<int>();
+
+//             //cout << "fir ts = " << ts << ", ct_[u][ts] = " << ct_[u][ts] << endl;
+//             int t = get_ct(u,ts);
+            
+//             for (int i = offset; i < nbr_[u].size(); ++i) {
+//                 //cout << "neighbor = <" << i.first << "," << i.second << ">\n";
+//                 if (nbr_[u][i].second > t) break;
+//                 if (nbr_[u][i].second < ts) {
+//                     offset = i + 1;
+//                     continue;
+//                 }
+                
+//                 int v = nbr_[u][i].first;
+//                 int v_ct = get_ct(v,ts);
+//                 if (core_[v]<k || v_ct == t_ || t < v_ct) continue;   // v's CT < u's CT, then v is in k-core earlier than u, thus add
+
+//                 ctn_[u][ts].insert(v);
+//             }
+//         }
+//     }
+//     cout << "Finished initializing ctn.\n";
+//     // print_ctn();
+// }
+
+
+// void Graph::local_ct(int u, int t_s, int k, int &offset, vector<bool> &visited, vector<int> &nbr_t, vector<int> &bm_history) {
+//     int ub = 0;
+
+//     for (int i = offset; i < nbr_[u].size(); ++i) {
+//         int t = nbr_[u][i].second;
+
+//         if (nbr_t.size() >= k && t > ub) break;
+
+//         if (t < t_s) {
+//             offset = i+1;
+//             continue;
+//         }
+
+//         int v = nbr_[u][i].first;
+//         if (core_[v] < k || visited[v] || get_ct(v,t_s) == t_) continue;
+
+//         visited[v] = true;
+//         int v_t = get_ct(v,t_s);
+//         int ct = max(t, v_t);
+
+//         nbr_t.emplace_back(ct);
+//         bm_history.emplace_back(v);
+
+//         if (nbr_t.size() <= k) ub = max(ub, ct);
+//     }
+//     if (nbr_t.size() >= k) {
+//         nth_element(nbr_t.begin(),nbr_t.begin()+k-1,nbr_t.end());
+//         // ct_[u][t_s] = nbr_t[k-1];
+//         if (u == 4 && t_s == 2) {
+//             cout << "insert t_s = " << t_s << ", ct = " << nbr_t[k-1] << endl;
+//         }
+//         insert_ct(u, t_s, nbr_t[k-1]);
+//     } else {
+//         // ct_[u][t_s] = t_;
+//         insert_ct(u, t_s, t_);
+//     }
+
+//     for (auto &v : bm_history) visited[v] = false;
+//     bm_history.clear();
+//     nbr_t.clear();
+// }
+
+
+// void Graph::time_range_kcore_parallel(long _ts, long _te, int k, int threads) {
+//     cout << "Query: ts = " << _ts << ", te = " << _te << ", k = " << k << ", num threads = " << threads << endl;
+
+// #ifdef _LINUX_
+//     struct timeval t_start, t_end;
+//     gettimeofday(&t_start, NULL);
+// #else
+//     clock_t start = clock();
+// #endif 
+
+//     long ts = t_old_to_new_[_ts];
+//     long te = t_old_to_new_[_te];
+//     cout << "after conversion: ts = " << ts << ", te = " << te << endl;
+
+//     truncate_t(ts, te);
+//     t_offset_ = new int[n_];
+
+//     // init_nbr_time();
+//     core_decomposition(k);
+//     init_ct(ts, te, k);
+
+//     init_ctn(ts, te, k);
+
+//     // gettimeofday(&t_start, NULL);
+//     int round = 0;
+//     bool update = true;
+//     while (update) {
+//         cout << "starting round " << round << endl;
+//         update = false;
+
+//         #pragma omp parallel for num_threads(threads) schedule(dynamic)
+//         for (int u = 1; u < n_; ++u) {
+//             cout << "u = " << u << endl;
+//             if (core_[u] < k) continue;
+//             // cout << "thread " << omp_get_thread_num() << " processing u = " << u << endl;
+//             vector<int> nbr_t;
+//             vector<int> bm_history;
+//             vector<bool> visited = vector<bool>(n_, false);
+
+//             int offset = 0;
+//             for (int t_s = 0; t_s <= te - ts; ++t_s) {
+//                 cout << "t_s = " << t_s << endl;
+//                 if (u == 4 && t_s == 2) {
+//                     print_local_ct();
+//                 }
+//                 if (get_ct(u,t_s) == t_) break;
+
+//                 if (ctn_[u][t_s].size() >= k) continue;
+
+//                 int old_ct = get_ct(u, t_s);
+//                 if (u == 4 && t_s == 2) {
+//                     cout << "old_ct = " << old_ct << endl;
+//                 }
+//                 local_ct(u, t_s, k, offset, visited, nbr_t, bm_history);
+//                 int new_ct = get_ct(u, t_s);
+
+//                 // re-compute ct_cnt_[u]
+//                 for (int i = offset; i < nbr_[u].size(); ++i) {
+//                     int t = nbr_[u][i].second;
+//                     int v = nbr_[u][i].first;
+//                     if (core_[v] < k) continue;
+//                     if (t > new_ct) break;
+
+//                     int v_ct = get_ct(v, t_s);
+//                     if (v_ct > new_ct) continue;
+
+//                     if (new_ct != t_) {
+//                         ctn_[u][t_s].insert(v);
+//                     }
+
+//                     // update neighbor
+//                     if (core_[v] < k || visited[v]) continue;
+//                     if (v_ct < old_ct || new_ct <= v_ct) continue;
+//                     // if (core_t_[v][k].back().second < old_t || new_t <= core_t_[v][k].back().second) continue;
+//                     auto it = ctn_[v][t_s].find(u);
+//                     if (it != ctn_[v][t_s].end()) ctn_[v][t_s].erase(it);
+//                 }
+                
+//                 if (old_ct != new_ct) update = true;
+//             }
+//         }
+//         round++;
+//     }
+
+//     cout << "Finished, round taken = " << round << endl;
+
+// #ifdef _LINUX_
+//     gettimeofday(&t_end, NULL);
+//     long long t_msec = (t_end.tv_sec - t_start.tv_sec)*1000 + (t_end.tv_usec - t_start.tv_usec)/1000;
+//     printf("Running time: %lld ms, %lld s, %lld mins\n", t_msec, t_msec/1000, t_msec/1000/60);
+//     if(log_f_ != nullptr) fprintf(log_f_,"Indexing time: %lld s\n",t_msec/1000);
+
+
+//     struct rusage rUsage;
+//     getrusage(RUSAGE_SELF, &rUsage);
+//     long ms = rUsage.ru_maxrss;
+//     printf("Memory usage = %ld B, %.2fKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024,(float)ms/1024/1024/1024);
+//     if(log_f_ != nullptr) fprintf(log_f_,"Memory usage = %ldKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024);
+// #else
+//     clock_t end = clock();
+//     printf("Running time: %.2f s, %.2f min\n",(double)(end-start)/ CLOCKS_PER_SEC,(double)(end-start)/CLOCKS_PER_SEC/60);
+
+// #endif
+//     if(log_f_ != nullptr) fprintf(log_f_,"kmax = %d\n",k_max_);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+void Graph::init_ct_v2(int ts, int te, int k, vector<int>& offset, vector<int>& ct_init) { // O(n*d)
+    cout << "Initialize all CT for ts = " << ts << ", te = " << te << ", k = " << k << endl;
+
     vector<int> bm_history;
-    int offset = 0;
+    vector<bool> visited(n_, false);
 
-    for (int ts = t_s; ts <= t_e; ++ts) {
-        int ub = 0;
+    for (int u = 1; u < n_; ++u) {
+        if (core_[u] < k) continue;
 
-        for (int i = offset; i < nbr_[u].size(); ++i) {
-            int v = nbr_[u][i].first;
+        int cnt = 0;
+        for (int i = 0; i < nbr_[u].size(); ++i) {
             int t = nbr_[u][i].second;
-
-            if (nbr_t.size() >= k && t > ub) break;
-
             if (t < ts) {
-                offset = i+1;
+                offset[u] = i+1;    // delete
                 continue;
             }
 
-            if (v_a_[v] || old_ct_[v][ts] == -1) continue;
+            int v = nbr_[u][i].first;
+            if (visited[v]) continue;
 
-            v_a_[v] = true;
-            int v_t = old_ct_[v][ts];
-            int ct = max(t, v_t);
-
-            nbr_t.emplace_back(ct);
+            visited[v] = true;
             bm_history.emplace_back(v);
 
-            if (nbr_t.size() <= k) ub = max(ub, ct);
+            ++cnt;
+            if (cnt == k) {
+                ct_init[u] = t;
+                break;
+            }
         }
-        if (nbr_t.size() >= k) {
-            nth_element(nbr_t.begin(),nbr_t.begin()+k-1,nbr_t.end());
-            ct_[u][ts] = nbr_t[k-1];
-        } else {
-            ct_[u][ts] = -1;
-        }
-
-        for (auto &v : bm_history) v_a_[v] = false;
+        for (auto &v : bm_history) visited[v] = false;
         bm_history.clear();
-        nbr_t.clear();
+    }
+    cout << "CT initialized." << endl;
+}
+
+void Graph::init_ctn_v2(int t_s, int t_e, int k, vector<int>& offset, vector<int>& ct_init, vector<unordered_map<int,int>>& ct_cnt) {
+    // reuse nbr_cnt_ and avoid applying space
+    // ct_cnt_ = nbr_cnt_;
+
+    for (int u = 1; u < n_; ++u) {
+        if (core_[u] < k) continue;
+        t_offset_[u] = 0;
+        ct_cnt[u].clear();
+
+        int t = ct_init[u];
+        for (int i = offset[u]; i < nbr_[u].size(); ++i){
+            // if (nbr_[u][i].second < t_s) continue;
+            if (nbr_[u][i].second > t) break;
+
+            int v = nbr_[u][i].first;
+            if (core_[v] < k || t < ct_init[v]) continue;   // v's CT < u's CT, then v is in k-core earlier than u, thus add
+            
+            if (ct_cnt[u].find(v) == ct_cnt[u].end()){
+                ct_cnt[u].insert(make_pair(v,1));
+            }else{
+                ++ct_cnt[u][v];
+            }
+        }
     }
 }
 
+void Graph::local_ct_v2(int u, int t_s, int k, vector<bool> &visited, vector<int>& offset, vector<int>& ct_prev, vector<int>& ct_curr) {
+    vector<int> nbr_t;
+    vector<int> bm_history;
+    int ub = 0;
 
-void Graph::time_range_kcore_parallel(long _ts, long _te, int k, int threads) {
-    cout << "Query: ts = " << _ts << ", te = " << _te << ", k = " << k << ", num threads = " << threads << endl;
+    for (int i = offset[u]; i < nbr_[u].size(); ++i) {
+        int t = nbr_[u][i].second;
 
-#ifdef _LINUX_
-    struct timeval t_start, t_end;
-    gettimeofday(&t_start, NULL);
-#else
-    clock_t start = clock();
-#endif 
+        if (nbr_t.size() >= k && t > ub) break;
 
-    long ts = t_old_to_new_[_ts];
-    long te = t_old_to_new_[_te];
-    cout << "after conversion: ts = " << ts << ", te = " << te << endl;
+        // if (t < t_s) continue;
 
-    truncate_t(ts, te);
-    init_nbr_time();
+        int v = nbr_[u][i].first;
+        if (core_[v] < k || visited[v] || ct_prev[v] == t_) continue;
 
-    cout << "compute all CT for ts = " << ts << ", te = " << te << ", k = " << k << endl;
-    ct_ = vector<vector<int>>(n_, vector<int>(t_, -1));
+        visited[v] = true;
+        int v_t = ct_prev[v];
+        int ct = max(t, v_t);
 
-    for (int u = 0; u < n_; ++u) {
-        vector<int> bm_history;
-        for (int i = 1; i < nbr_time_[u].size(); ++i) {
-            int cnt = 0;
+        nbr_t.emplace_back(ct);
+        bm_history.emplace_back(v);
 
-            for (int j = offset_[u][i-1]; j < nbr_[u].size(); j++) {
-                int v = nbr_[u][j].first;
-                int t = nbr_[u][j].second;
-
-                if (v_a_[v]) continue;
-
-                cnt++;
-                if (cnt == k) {
-                    for (int ts = nbr_time_[u][i-1]+1; ts <= nbr_time_[u][i]; ts++) {
-                        ct_[u][ts] = t;
-                    }
-                    break;
-                }
-
-                v_a_[v] = true;
-                bm_history.emplace_back(v);
-            }
-
-            for (auto &v : bm_history) v_a_[v] = false;
-            bm_history.clear();
-        }
+        if (nbr_t.size() <= k) ub = max(ub, ct);
     }
-    
+    if (nbr_t.size() >= k) {
+        nth_element(nbr_t.begin(),nbr_t.begin()+k-1,nbr_t.end());
+        ct_curr[u] = nbr_t[k-1];
+    } else {
+        ct_curr[u] = t_;
+    }
+
+    for (auto &v : bm_history) visited[v] = false;
+}
+
+void Graph::init_core_time_v2(int ts, int te, int k, int threads, vector<int>& offset, vector<unordered_map<int,int>>& ct_cnt, vector<pair<int,int>>* core_t) {
+    vector<int> ct_old(n_, t_);
+
+    init_ct_v2(ts, te, k, offset, ct_old);      // O(n*d)
+    init_ctn_v2(ts, te, k, offset, ct_old, ct_cnt);     // O(n*d)
+
+    vector<int> ct_new = ct_old;
+
     int round = 0;
     bool update = true;
-    vector<int> updated;
-    old_ct_ = ct_;
     while (update) {
-        // cout << "starting round " << round << endl;
         update = false;
+        round++;
 
-        #pragma omp parallel for num_threads(threads) ordered schedule(dynamic)
-        for (int u = 1; u < n_; ++u) {
-            // cout << "thread " << omp_get_thread_num() << " processing u = " << u << endl;
-            #pragma omp ordered
-            local_ct(u, 0, te - ts, k);
+        #pragma omp parallel num_threads(threads)
+        {
+            #pragma omp for schedule(static, chunk_size_)
+            for (int u = 0; u < n_; ++u) {
+                // cout << "thread " << omp_get_thread_num() << " processing u = " << u << endl;
+                if (core_[u] < k || ct_old[u] == t_ || ct_cnt[u].size() >= k) continue;
 
-            if (old_ct_[u] != ct_[u]) {
-                updated.emplace_back(u);
-                update = true;
+                vector<bool> visited = vector<bool>(n_, false);
+                
+                int old_ct = ct_old[u];
+                local_ct_v2(u, ts, k, visited, offset, ct_old, ct_new);
+                int new_ct = ct_new[u];
+
+                // re-compute ct_cnt[u]
+                ct_cnt[u].clear();
+                for (int i = offset[u]; i < nbr_[u].size(); ++i) {
+                    int t = nbr_[u][i].second;
+                    // if (t < ts) continue;
+                    if (t > new_ct) break;
+
+                    int v = nbr_[u][i].first;
+                    if (core_[v] < k) continue;
+
+                    if (ct_old[v] > new_ct) continue;
+
+                    if (new_ct != t_) {
+                        if (ct_cnt[u].find(v) == ct_cnt[u].end()){
+                            ct_cnt[u].insert(make_pair(v,1));
+                        }else{
+                            ++ct_cnt[u][v];
+                        }
+                    }
+
+                    // update neighbor
+                    if (core_[v] < k || visited[v]) continue;
+                    if (new_ct > ct_old[v]) {
+                        visited[v] = true;
+                        #pragma omp critical
+                        {
+                            messages_[v/chunk_size_].emplace_back(make_pair(v,u));
+                        }
+                    }
+                }
+            }
+
+            for (auto e : messages_[omp_get_thread_num()]) {
+                int u = e.first;
+                int v = e.second;
+                //   received > self
+                if (ct_new[v] > ct_new[u]) {    // if new CT[v] is later than CT[u] now, then v is not CT neighbor of u anymore
+                    if (ct_cnt[u].find(v) != ct_cnt[u].end()) {
+                        ct_cnt[u].erase(v);
+                    }
+                }
+            }
+            messages_[omp_get_thread_num()].clear();
+
+            #pragma omp barrier
+
+            #pragma omp for schedule(static, chunk_size_)
+            for (int u = 0; u < n_; ++u) {
+                if (ct_old[u] != ct_new[u]) {
+                    ct_old[u] = ct_new[u];
+                    update = true;
+                }
+            }
+        }
+    }
+
+    for (int u = 1; u < n_; ++u) {
+        if (core_[u] >= k) {
+            core_t[u].emplace_back(make_pair(0, ct_new[u]));
+        }
+    }
+
+    cout << "Initialization complete, round taken = " << round << endl;
+}
+
+
+void Graph::time_range_kcore_v2(long _ts, long _te, int k, int threads) {
+    #ifdef _LINUX_
+        struct timeval t_start, t_end;
+        gettimeofday(&t_start, NULL);
+    #else
+        clock_t start = clock();
+    #endif 
+
+    threads_ = threads;
+    if (n_ % threads == 0) {
+        chunk_size_ = n_ / threads;
+    } else {
+        chunk_size_ = (n_ + (threads - n_ % threads)) / threads;
+    }
+    cout << "Operating at n = " << n_ << ", threads = " << threads << ", chunksize = " << chunk_size_ << endl;
+    cout << "Query: ts = " << _ts << ", te = " << _te << ", k = " << k << endl;
+    messages_ = vector<vector<pair<int, int>>>(threads);
+
+    int ts = t_old_to_new_[_ts];
+    int te = t_old_to_new_[_te];
+    cout << "after conversion: ts = " << ts << ", te = " << te << endl;
+
+    truncate(ts, te);
+    
+    printf("starting core decomposition...\n");
+    core_decomposition(k);
+
+    printf("k_max = %d\n",k_max_);
+    if (k_max_ < k) {
+        printf("queried k = %d exceed maximum core in G[ts,te] = %d\n", k, k_max_);
+        return;
+    }
+
+    vector<bool> v_a(n_, false);
+    vector<int> offset(n_);
+    vector<unordered_map<int,int>> ct_cnt(n_, unordered_map<int,int>());
+
+    vector<pair<int,int>>* core_t = new vector<pair<int,int>>[n_];
+
+    printf("initialize core time.\n");
+    init_core_time_v2(0, te, k, threads, offset, ct_cnt, core_t);
+
+    vector<pair<int,int>>* core_t_old = new vector<pair<int,int>>[n_];
+    for (int u = 0; u < n_; ++u) {
+        core_t_old[u] = core_t[u];
+    }
+    
+    vector<int> q(n_);  // care: theoretically can exceed out of bound?
+    for (int t_s = ts+1; t_s <= te; ++t_s) {
+        int start = 0;
+        int end = 0;
+
+        for (int i = edges_idx_[t_s-1]; i < edges_idx_[t_s]; ++i) {
+            int u = edges_[i].first;
+            int v = edges_[i].second;
+            //cout << "delete edge = <" << u << "," << v << "," << t_s-1 << ">" << endl;
+
+            if (invalid_v2(u,k,core_t) || invalid_v2(v,k,core_t)) continue;
+
+            // process u
+            if (!v_a[u]){
+                if (ct_cnt[u].find(v) != ct_cnt[u].end()) {
+                    --ct_cnt[u][v];
+                    if (ct_cnt[u][v] == 0) ct_cnt[u].erase(v);
+                }
+                if (ct_cnt[u].size()<k){
+                    q[end] = u;
+                    end++;
+                    v_a[u] = true;
+                }
+            }
+            // process v
+            if (!v_a[v]) {
+                if (ct_cnt[v].find(u) != ct_cnt[v].end()) {
+                    --ct_cnt[v][u];
+                    if (ct_cnt[v][u] == 0) ct_cnt[v].erase(u);
+                }
+                if (ct_cnt[v].size() < k) {
+                    q[end] = v;
+                    end++;
+                    v_a[v] = true;
+                }
             }
         }
 
-        for (auto v : updated) {
-            old_ct_[v] = ct_[v];
+        while (start < end){
+            #pragma omp parallel num_threads(threads)
+            {   
+                vector<bool> v_b(n_, false);
+                vector<int> updated;
+                int count_u = 0;
+
+                #pragma omp for schedule(static)
+                for (int j = start; j < end; j++) {
+                    int u = q[j];
+                    count_u++;
+                    #pragma omp critical
+                    {
+                        v_a[u] = false; //atomic? should be no
+                    }
+
+                    ct_cnt[u].clear();
+                    vector<int> nbr_t;
+                    vector<int> bm_history;
+                    int ct = 0;
+
+                    // LocalCT
+                    for (int i = offset[u]; i < nbr_[u].size(); ++i) {
+                        int t = nbr_[u][i].second;
+                        if (nbr_t.size() >= k && t > ct) break;
+                        if (t < t_s){
+                            offset[u] = i+1;
+                            continue;
+                        }
+
+                        int v = nbr_[u][i].first;
+                        if (invalid_v2(v,k,core_t_old) || v_b[v]) continue;
+                        v_b[v] = true;
+                        int v_t = core_t_old[v].back().second;
+                        nbr_t.emplace_back(max(t,v_t));
+                        bm_history.emplace_back(v);
+
+                        if (nbr_t.size() <= k) ct = max(ct,v_t);
+                    }
+                    for (auto &v:bm_history) v_b[v] = false;
+
+                    int new_t = t_;
+                    if (nbr_t.size() >= k){
+                        nth_element(nbr_t.begin(),nbr_t.begin()+k-1,nbr_t.end());
+                        new_t = nbr_t[k-1];
+                    }
+
+                    // insert into index
+                    int old_t = core_t[u].back().second;
+                    if (core_t[u].back().first == t_s){
+                        core_t[u].back().second = new_t;
+                    }else{
+                        core_t[u].emplace_back(make_pair(t_s,new_t));
+                    }
+                    updated.emplace_back(u);    // no duplicates (each inner round)
+
+                    // re-compute ct_cnt[u]
+                    vector<bool> v_c(n_, false);
+                    for (int i = offset[u]; i < nbr_[u].size(); ++i) {
+                        int t = nbr_[u][i].second;
+                        int v = nbr_[u][i].first;
+                        if (t > new_t) break;
+                        if (invalid_v2(v,k,core_t_old) || core_t_old[v].back().second > new_t) continue;    //prove?
+
+                        if (new_t != t_){
+                            if (ct_cnt[u].find(v) == ct_cnt[u].end()){
+                                ct_cnt[u].insert(make_pair(v,1));
+                            }else{
+                                ++ct_cnt[u][v];
+                            }
+                        }
+
+                        if (v_c[v]) continue;   // TODO: use v_b + bm_history?
+                        v_c[v] = true;
+                        
+                        if (new_t > core_t_old[v].back().second) {
+                            #pragma omp critical
+                            {
+                                messages_[v/chunk_size_].emplace_back(make_pair(v,u));
+                            }
+                        }
+                    }
+                }
+                #pragma omp barrier
+
+                for (auto e : messages_[omp_get_thread_num()]) {
+                    int u = e.first;
+                    int v = e.second;
+            
+                    if (v_a[u]) continue;
+
+                    //   received > self
+                    if (core_t[v].back().second > core_t[u].back().second) {    // if new CT[v] is later than CT[u] now, then v is not CT neighbor of u anymore
+                        if (ct_cnt[u].find(v) != ct_cnt[u].end()) {
+                            ct_cnt[u].erase(v);
+                            if (ct_cnt[u].size() < k) {
+                                #pragma omp critical
+                                {
+                                    q[end] = u;
+                                    end++;
+                                    v_a[u] = true;  // can be not atomic, only this thread uses v_a[u]
+                                }
+                            }
+                        }
+                    }
+                }
+                
+                for (int u : updated) {
+                    core_t_old[u] = core_t[u];  // TODO: only copy end?
+                }
+                // updated.clear();
+                messages_[omp_get_thread_num()].clear();
+
+                #pragma omp critical
+                {
+                    start += count_u;   // use updated.size()?
+                }
+                #pragma omp barrier
+            }
         }
-        updated.clear();
-        // old_ct_ = ct_;
-        round++;
     }
 
-    cout << "Finished, round taken = " << round << endl;
-
-#ifdef _LINUX_
-    gettimeofday(&t_end, NULL);
-    long long t_msec = (t_end.tv_sec - t_start.tv_sec)*1000 + (t_end.tv_usec - t_start.tv_usec)/1000;
-    printf("Running time: %lld ms, %lld s, %lld mins\n", t_msec, t_msec/1000, t_msec/1000/60);
-    if(log_f_ != nullptr) fprintf(log_f_,"Indexing time: %lld s\n",t_msec/1000);
+    #ifdef _LINUX_
+        gettimeofday(&t_end, NULL);
+        long long t_msec = (t_end.tv_sec - t_start.tv_sec)*1000 + (t_end.tv_usec - t_start.tv_usec)/1000;
+        printf("Running time: %lld ms, %lld s, %lld mins\n", t_msec, t_msec/1000, t_msec/1000/60);
+        if(log_f_ != nullptr) fprintf(log_f_,"Indexing time: %lld s\n",t_msec/1000);
 
 
-    struct rusage rUsage;
-    getrusage(RUSAGE_SELF, &rUsage);
-    long ms = rUsage.ru_maxrss;
-    printf("Memory usage = %ld B, %.2fKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024,(float)ms/1024/1024/1024);
-    if(log_f_ != nullptr) fprintf(log_f_,"Memory usage = %ldKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024);
-#else
-    clock_t end = clock();
-    printf("Running time: %.2f s, %.2f min\n",(double)(end-start)/ CLOCKS_PER_SEC,(double)(end-start)/CLOCKS_PER_SEC/60);
+        struct rusage rUsage;
+        getrusage(RUSAGE_SELF, &rUsage);
+        long ms = rUsage.ru_maxrss;
+        printf("Memory usage = %ld B, %.2fKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024,(float)ms/1024/1024/1024);
+        if(log_f_ != nullptr) fprintf(log_f_,"Memory usage = %ldKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024);
+    #else
+        clock_t end = clock();
+        printf("Running time: %.2f s, %.2f min\n",(double)(end-start)/ CLOCKS_PER_SEC,(double)(end-start)/CLOCKS_PER_SEC/60);
 
-#endif
+    #endif
     if(log_f_ != nullptr) fprintf(log_f_,"kmax = %d\n",k_max_);
+    // print_idx_size();
 
-    // print_graph();
-    // print_local_ct();
+    // print_ct(core_t);
+    write_index(core_t);
 }
