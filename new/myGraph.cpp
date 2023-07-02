@@ -4,7 +4,6 @@
 Graph::Graph() {
     idx_size_ = 0;
     min_k_ = 2;
-    log_f_ = nullptr;
     nbr_cnt_ = nullptr;
     v_a_ = nullptr;
     v_b_ = nullptr;
@@ -19,7 +18,6 @@ Graph::Graph() {
 }
 
 Graph::~Graph() {
-    if (log_f_ != nullptr) fclose(log_f_);
     delete[] nbr_cnt_;
     delete[] v_a_;
     delete[] v_b_;
@@ -30,13 +28,6 @@ Graph::~Graph() {
     // delete[] messages_;
     //delete[] cd_;   // same address as nbr_cnt_
     //delete[] ct_cnt_;  // same address as nbr_cnt_
-}
-
-void Graph::init_log(const string &log_path) {
-    log_f_ = fopen(log_path.c_str(),"a");
-    fprintf(log_f_,"\n\n==================\n");
-    time_t now = time(0);
-    fprintf(log_f_,"%s\n",ctime(&now));
 }
 
 void Graph::print_graph() {
@@ -146,34 +137,8 @@ void Graph::print_message() {
     }
 }
 
-void Graph::print_idx_size() {
-    if (idx_size_ != 0) printf("Index size: %lld MB.",idx_size_/1024/1024);
-
-    idx_size_ += sizeof(int);
-    idx_size_ += sizeof(int)*n_;
-
-    double average_t = 0;
-    int average_t_d = 0;
-    int max_t = 0;
-
-    for (int u = 0; u < n_; ++u) {
-        if (core_t_[u].size() <= min_k_) continue;
-        for (int k = min_k_; k < core_t_[u].size(); ++k){
-            idx_size_ += core_t_[u][k].size()*2*sizeof(int);
-            average_t += core_t_[u][k].size();
-            if (core_t_[u][k].size() > max_t) max_t = core_t_[u][k].size();
-        }
-        average_t_d += core_t_[u].size()-min_k_;
-    }
-
-    printf("Index size: %.2f MB.\n",(float)idx_size_/1024/1024);
-    printf("Average T = %.2f, max T = %d.\n",average_t/average_t_d,max_t);
-
-    if(log_f_ != nullptr) fprintf(log_f_,"Index size: %.2f MB\n",(float)idx_size_/1024/1024);
-    if(log_f_ != nullptr) fprintf(log_f_,"Average T = %.2f, max T = %d.\n",average_t/average_t_d,max_t);
-}
-
 void Graph::write_index(vector<pair<int,int>>* core_t) {
+    cout << "writing to 1.txt\n";
     ofstream fout("1.txt");
 
     for (int u = 0; u < n_; u++) {
@@ -228,7 +193,6 @@ void Graph::init_nbr_time() {
 }
 
 void Graph::load(const string &path) {
-    if (log_f_ != nullptr) fprintf(log_f_, "Graph path: %s\n", path.c_str());
     printf("Graph path: %s\n", path.c_str());
     printf("Loading Graph\n");
 
@@ -301,10 +265,6 @@ void Graph::load(const string &path) {
 
     printf("n = %d, m = %d, effective_m = %d, max_deg = %d, max_effective_deg = %d.\n",n_,m_,effective_m_,max_deg_,max_effective_deg_);
     printf("span = %d, t_min = %ld\n",t_, t_min_);
-    if(log_f_!= nullptr){
-        fprintf(log_f_, "n = %d, m = %d, effective_m = %d, max_deg = %d, max_effective_deg = %d.\n",n_,m_,effective_m_,max_deg_,max_effective_deg_);
-        fprintf(log_f_, "span = %d.\n",t_);
-    }
     print_graph_size();
 
     if (v_a_ == nullptr) v_a_ = new bool[n_];
@@ -336,10 +296,6 @@ void Graph::truncate(int ts, int te) {
     printf("After truncate:\n");
     printf("n = %d, m = %d, effective_m = %d, max_deg = %d, max_effective_deg = %d.\n",n_,m_,effective_m_,max_deg_,max_effective_deg_);
     printf("span = %d, t_min = %ld\n",t_, t_min_);
-    if(log_f_!= nullptr){
-        fprintf(log_f_, "n = %d, m = %d, effective_m = %d, max_deg = %d, max_effective_deg = %d.\n",n_,m_,effective_m_,max_deg_,max_effective_deg_);
-        fprintf(log_f_, "span = %d.\n",t_);
-    }
     print_graph_size();
 }
 
@@ -365,10 +321,6 @@ void Graph::truncate_t(int ts, int te) {
     printf("After truncate:\n");
     printf("n = %d, m = %d, effective_m = %d, max_deg = %d, max_effective_deg = %d.\n",n_,m_,effective_m_,max_deg_,max_effective_deg_);
     printf("span = %d, t_min = %ld\n",t_, t_min_);
-    if(log_f_!= nullptr){
-        fprintf(log_f_, "n = %d, m = %d, effective_m = %d, max_deg = %d, max_effective_deg = %d.\n",n_,m_,effective_m_,max_deg_,max_effective_deg_);
-        fprintf(log_f_, "span = %d.\n",t_);
-    }
     print_graph_size();
 }
 
@@ -602,7 +554,7 @@ void Graph::time_range_kcore(long _ts, long _te, int _k) {
     gettimeofday(&t_start, NULL);
 #else
     clock_t start = clock();
-#endif 
+#endif
 
     int ts = t_old_to_new_[_ts];
     int te = t_old_to_new_[_te];
@@ -741,20 +693,17 @@ void Graph::time_range_kcore(long _ts, long _te, int _k) {
     gettimeofday(&t_end, NULL);
     long long t_msec = (t_end.tv_sec - t_start.tv_sec)*1000 + (t_end.tv_usec - t_start.tv_usec)/1000;
     printf("Running time: %lld ms, %lld s, %lld mins\n", t_msec, t_msec/1000, t_msec/1000/60);
-    if(log_f_ != nullptr) fprintf(log_f_,"Indexing time: %lld s\n",t_msec/1000);
 
 
     struct rusage rUsage;
     getrusage(RUSAGE_SELF, &rUsage);
     long ms = rUsage.ru_maxrss;
     printf("Memory usage = %ld B, %.2fKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024,(float)ms/1024/1024/1024);
-    if(log_f_ != nullptr) fprintf(log_f_,"Memory usage = %ldKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024);
 #else
     clock_t end = clock();
     printf("Running time: %.2f s, %.2f min\n",(double)(end-start)/ CLOCKS_PER_SEC,(double)(end-start)/CLOCKS_PER_SEC/60);
 
 #endif
-    if(log_f_ != nullptr) fprintf(log_f_,"kmax = %d\n",k_max_);
     print_idx_size();
 }
 
@@ -1034,20 +983,17 @@ void Graph::time_range_kcore(long _ts, long _te, int _k) {
 //     gettimeofday(&t_end, NULL);
 //     long long t_msec = (t_end.tv_sec - t_start.tv_sec)*1000 + (t_end.tv_usec - t_start.tv_usec)/1000;
 //     printf("Running time: %lld ms, %lld s, %lld mins\n", t_msec, t_msec/1000, t_msec/1000/60);
-//     if(log_f_ != nullptr) fprintf(log_f_,"Indexing time: %lld s\n",t_msec/1000);
 
 
 //     struct rusage rUsage;
 //     getrusage(RUSAGE_SELF, &rUsage);
 //     long ms = rUsage.ru_maxrss;
 //     printf("Memory usage = %ld B, %.2fKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024,(float)ms/1024/1024/1024);
-//     if(log_f_ != nullptr) fprintf(log_f_,"Memory usage = %ldKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024);
 // #else
 //     clock_t end = clock();
 //     printf("Running time: %.2f s, %.2f min\n",(double)(end-start)/ CLOCKS_PER_SEC,(double)(end-start)/CLOCKS_PER_SEC/60);
 
 // #endif
-//     if(log_f_ != nullptr) fprintf(log_f_,"kmax = %d\n",k_max_);
 // }
 
 
@@ -1169,6 +1115,7 @@ void Graph::local_ct_v2(int u, int t_s, int k, vector<bool> &visited, vector<int
 }
 
 void Graph::init_core_time_v2(int ts, int te, int k, int threads, vector<int>& offset, vector<unordered_map<int,int>>& ct_cnt, vector<pair<int,int>>* core_t) {
+    printf("initialize core time.\n");
     vector<int> ct_old(n_, t_);
 
     init_ct_v2(ts, te, k, offset, ct_old);      // O(n*d)
@@ -1300,7 +1247,6 @@ void Graph::time_range_kcore_v2(long _ts, long _te, int k, int threads) {
 
     vector<pair<int,int>>* core_t = new vector<pair<int,int>>[n_];
 
-    printf("initialize core time.\n");
     init_core_time_v2(0, te, k, threads, offset, ct_cnt, core_t);
 
     vector<pair<int,int>>* core_t_old = new vector<pair<int,int>>[n_];
@@ -1316,7 +1262,6 @@ void Graph::time_range_kcore_v2(long _ts, long _te, int k, int threads) {
         for (int i = edges_idx_[t_s-1]; i < edges_idx_[t_s]; ++i) {
             int u = edges_[i].first;
             int v = edges_[i].second;
-            //cout << "delete edge = <" << u << "," << v << "," << t_s-1 << ">" << endl;
 
             if (invalid_v2(u,k,core_t) || invalid_v2(v,k,core_t)) continue;
 
@@ -1351,15 +1296,13 @@ void Graph::time_range_kcore_v2(long _ts, long _te, int k, int threads) {
             {   
                 vector<bool> v_b(n_, false);
                 vector<int> updated;
-                int count_u = 0;
 
                 #pragma omp for schedule(static)
                 for (int j = start; j < end; j++) {
                     int u = q[j];
-                    count_u++;
                     #pragma omp critical
                     {
-                        v_a[u] = false; //atomic? should be no
+                        v_a[u] = false;
                     }
 
                     ct_cnt[u].clear();
@@ -1368,7 +1311,7 @@ void Graph::time_range_kcore_v2(long _ts, long _te, int k, int threads) {
                     int ct = 0;
 
                     // LocalCT
-                    for (int i = offset[u]; i < nbr_[u].size(); ++i) {
+                    for (int i = offset[u]; i < nbr_[u].size(); ++i) {  // TODO: local copy of offset
                         int t = nbr_[u][i].second;
                         if (nbr_t.size() >= k && t > ct) break;
                         if (t < t_s){
@@ -1429,7 +1372,10 @@ void Graph::time_range_kcore_v2(long _ts, long _te, int k, int threads) {
                         }
                     }
                 }
+
+
                 #pragma omp barrier
+
 
                 for (auto e : messages_[omp_get_thread_num()]) {
                     int u = e.first;
@@ -1452,16 +1398,14 @@ void Graph::time_range_kcore_v2(long _ts, long _te, int k, int threads) {
                         }
                     }
                 }
-                
-                for (int u : updated) {
-                    core_t_old[u] = core_t[u];  // TODO: only copy end?
-                }
-                // updated.clear();
-                messages_[omp_get_thread_num()].clear();
 
                 #pragma omp critical
                 {
-                    start += count_u;   // use updated.size()?
+                    for (int u : updated) {
+                        core_t_old[u] = core_t[u];  // TODO: only copy end?
+                    }
+                    messages_[omp_get_thread_num()].clear();    // TODO: use index
+                    start += updated.size();   // use updated.size()?
                 }
                 #pragma omp barrier
             }
@@ -1472,20 +1416,17 @@ void Graph::time_range_kcore_v2(long _ts, long _te, int k, int threads) {
         gettimeofday(&t_end, NULL);
         long long t_msec = (t_end.tv_sec - t_start.tv_sec)*1000 + (t_end.tv_usec - t_start.tv_usec)/1000;
         printf("Running time: %lld ms, %lld s, %lld mins\n", t_msec, t_msec/1000, t_msec/1000/60);
-        if(log_f_ != nullptr) fprintf(log_f_,"Indexing time: %lld s\n",t_msec/1000);
 
 
         struct rusage rUsage;
         getrusage(RUSAGE_SELF, &rUsage);
         long ms = rUsage.ru_maxrss;
         printf("Memory usage = %ld B, %.2fKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024,(float)ms/1024/1024/1024);
-        if(log_f_ != nullptr) fprintf(log_f_,"Memory usage = %ldKB, %.2fMB, %.2fGB\n",ms,(float)ms/1024,(float)ms/1024/1024);
     #else
         clock_t end = clock();
         printf("Running time: %.2f s, %.2f min\n",(double)(end-start)/ CLOCKS_PER_SEC,(double)(end-start)/CLOCKS_PER_SEC/60);
 
     #endif
-    if(log_f_ != nullptr) fprintf(log_f_,"kmax = %d\n",k_max_);
     // print_idx_size();
 
     // print_ct(core_t);

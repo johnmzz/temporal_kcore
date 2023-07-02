@@ -29,8 +29,6 @@
 using namespace std;
 
 class Graph {
-    FILE* log_f_;
-
     int min_k_;
     int threads_;
     int k_max_{};
@@ -127,7 +125,6 @@ public:
     void print_nbr_time();
     void print_graph_size();
     void print_queue(queue<int> q);
-    void init_log(const string &log_path);
 
     // output
     void write_index(vector<pair<int,int>>* core_t);
