@@ -15,6 +15,7 @@
 #include <ctime>
 #include <iomanip>
 #include <climits>
+#include <chrono>
 
 #define _LINUX_
 
@@ -82,7 +83,7 @@ public:
     bool invalid(int u, int k);
     bool invalid_v2(int u, int k, vector<pair<int,int>>* core_t);
     void del_nbr(int u, int v);
-    void del_nbr_v2(int u, int v, vector<unordered_map<int,int>>& ct_cnt);
+    void del_nbr_v2(int u, int v, unordered_map<int, int>* ct_cnt);
 
     // time range k-core
     void time_range_kcore(long _ts, long _te, int _k);
@@ -105,18 +106,25 @@ public:
 
     // ver 2 (parallel init, incremental update)
     void time_range_kcore_v2(long _ts, long _te, int k, int threads);
-    void init_core_time_v2(int _ts, int _te, int _k, int threads, vector<int>& offset, vector<unordered_map<int,int>>& ct_cnt, vector<pair<int,int>>* core_t);
+    void init_core_time_v2(int _ts, int _te, int _k, int threads, vector<int>& offset, unordered_map<int, int>* ct_cnt, vector<pair<int,int>>* core_t);
     
     void init_ct_v2(int ts, int te, int k, vector<int> &offset, vector<int>& ct_init);
-    void init_ctn_v2(int ts, int te, int k, vector<int> &offset, vector<int>& ct_init, vector<unordered_map<int,int>>& ct_cnt);
+    void init_ctn_v2(int ts, int te, int k, vector<int> &offset, vector<int>& ct_init, unordered_map<int, int>* ct_cnt);
     void local_ct_v2(int u, int ts, int k, vector<bool> &visited, vector<int> &offset, vector<int>& ct_prev, vector<int>& ct_curr);
 
-    // ver 3 (parallel naive, updated CTN of all neighbors each round)
+    // ver 3 (parallel init, incremental update correct)
     void time_range_kcore_v3(long _ts, long _te, int k, int threads);
+
+    // ver 4 (multiple single thread init, single thread increment)
+    void init_ct_v3(int ts, int te, int k, vector<int> &offset, vector<int>& ct_init);
+    void init_ctn_v3(int ts, int te, int k, vector<int> &offset, vector<int>& ct_init, unordered_map<int, int>* ct_cnt);
+    void init_core_time_v3(int _ts, int _te, int _k, int threads, vector<int>& offset, unordered_map<int, int>* ct_cnt, vector<pair<int,int>>* core_t);
+    void local_ct_v3(int u, int t_s, int k, vector<bool> &visited, vector<int>& offset, vector<int>& ct_init);
+    void time_range_kcore_v4(long _ts, long _te, int k, int threads);
 
     // display
     void print_ct(vector<pair<int,int>>* core_t);
-    void print_ctn(vector<unordered_map<int,int>>& ct_cnt);
+    void print_ctn(unordered_map<int, int>* ct_cnt);
     void print_graph();
     void print_message();
     void print_nbr_cnt_();
@@ -146,7 +154,7 @@ inline void Graph::del_nbr(int u, int v) {
     if (ct_cnt_[u][v]==0) ct_cnt_[u].erase(v);
 }
 
-inline void Graph::del_nbr_v2(int u, int v, vector<unordered_map<int,int>>& ct_cnt) {
+inline void Graph::del_nbr_v2(int u, int v, unordered_map<int, int>* ct_cnt) {
     if (ct_cnt[u].find(v) == ct_cnt[u].end()) return;
     --ct_cnt[u][v];
     if (ct_cnt[u][v]==0) ct_cnt[u].erase(v);
