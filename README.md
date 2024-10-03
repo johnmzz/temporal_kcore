@@ -15,11 +15,9 @@ For example:
 ./run ../data/CollegeMsg.txt 1082040961 1098777142 2 advanced
 ``
 
-Data file format (txt file):
-
+Data file format (txt file, each line should look like this):
+``
 u v timestamp
-u v timestamp
-...
-
+``
 
 Please make sure all temporal graph files are sorted by increasing order of timestamps.
