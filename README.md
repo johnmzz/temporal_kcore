@@ -16,10 +16,10 @@ For example:
 ``
 
 Data file format (txt file):
-``
+
 u v timestamp
 u v timestamp
 ...
-``
+
 
 Please make sure all temporal graph files are sorted by increasing order of timestamps.
