@@ -70,8 +70,8 @@ void printMemoryUsage() {
 }
 
 int main(int argc, char *argv[]) {
-    if (argc != 8) {
-        std::cerr << "Usage: " << argv[0] << " <graph_path> <ts> <te> <k> <version> <write_res> <algorithm>" << std::endl;
+    if (argc != 6) {
+        std::cerr << "Usage: " << argv[0] << " <graph_path> <ts> <te> <k> <algorithm>" << std::endl;
         return 1;
     }
 
