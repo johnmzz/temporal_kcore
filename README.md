@@ -10,6 +10,8 @@ g++ -O3 main.cpp newGraph.cpp -o run -std=c++14
 ./run [data_file] [start_time] [end_time] [k] [algoritm]
 ``
 
+For algorithms, input "advanced" or "baseline"
+
 For example:
 ``
 ./run ../data/CollegeMsg.txt 1082040961 1098777142 2 advanced
