@@ -10,7 +10,7 @@ g++ -O3 main.cpp newGraph.cpp -o run -std=c++14
 ./run [data_file] [start_time] [end_time] [k] [algoritm]
 ``
 
-For algorithms, input "advanced" or "baseline"
+For algorithms, input "advanced" or "baseline". Advanced refers to our proposed algorithm, while baseline refers to the SOTA algorithm in the paper. 
 
 For example:
 ``
